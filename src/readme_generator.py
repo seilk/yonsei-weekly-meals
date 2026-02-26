@@ -13,6 +13,7 @@ def _escape_md_text(text: str) -> str:
         escaped.replace("|", "\\|")
         .replace("_", "\\_")
         .replace("*", "\\*")
+        .replace("~", "\\~")
         .replace("[", "\\[")
         .replace("]", "\\]")
     )
@@ -163,7 +164,7 @@ def _one_line_operating_hours(rest: dict | None) -> str:
     if not hours:
         return "-"
     # keep one-line display for README readability
-    return hours.replace("\n", " / ")
+    return _escape_md_text(hours.replace("\n", " / "))
 
 
 def render_readme(data: dict, template_path: Path) -> str:

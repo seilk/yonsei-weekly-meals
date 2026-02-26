@@ -13,8 +13,7 @@
 
 ## 오늘 메뉴
 
-**오늘:** {today_label}  
-➡ [요일별 보기에서 오늘 위치로 이동](#day-{today_key})
+**오늘:** {today_label}
 
 {today_menu_section}
 

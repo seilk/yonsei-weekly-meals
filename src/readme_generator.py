@@ -243,18 +243,21 @@ def _format_operating_hours(rest: dict | None) -> str:
             continue
 
         if period != "기타":
-            rendered.append(f"**{_escape_md_text(period)}**")
+            rendered.append(f"- **{_escape_md_text(period)}**")
 
         for day_key in ["평일", "주말"]:
             items = block[day_key]
             if not items:
                 continue
-            rendered.append(f"- {_escape_md_text(day_key)}")
+            prefix = "  - " if period != "기타" else "- "
+            item_prefix = "    - " if period != "기타" else "  - "
+            rendered.append(f"{prefix}{_escape_md_text(day_key)}")
             for item in items:
-                rendered.append(f"  - {_escape_md_text(item)}")
+                rendered.append(f"{item_prefix}{_escape_md_text(item)}")
 
+        other_prefix = "  - " if period != "기타" else "- "
         for item in block["기타"]:
-            rendered.append(f"- {_escape_md_text(item)}")
+            rendered.append(f"{other_prefix}{_escape_md_text(item)}")
 
     return "\n".join(rendered) if rendered else "-"
 

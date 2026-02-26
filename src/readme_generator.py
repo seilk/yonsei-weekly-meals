@@ -46,6 +46,17 @@ def _format_item_with_price(item: dict) -> str:
     return safe_name
 
 
+def _category_emoji(category: str) -> str:
+    c = normalize_space(category)
+    if "조식" in c or "아침" in c:
+        return "🌄"
+    if "중식" in c or "점심" in c:
+        return "☀️"
+    if "석식" in c or "저녁" in c:
+        return "🌛"
+    return ""
+
+
 def _format_yonsei_entries(entries: list[dict]) -> str:
     lines: list[str] = []
     for section in entries:
@@ -60,28 +71,48 @@ def _format_yonsei_entries(entries: list[dict]) -> str:
 
         safe_category = _escape_md_text(category)
         title = f"**{safe_category}**" if safe_category else "**메뉴**"
+        icon = _category_emoji(category)
         if visible_items:
-            lines.append(f"{title}: {', '.join(visible_items)}")
+            line = f"{title}: {', '.join(visible_items)}"
+            lines.append(f"{icon} {line}" if icon else line)
             continue
 
         had_unavailable = any(
             _is_unavailable_text(normalize_space(i.get("name", ""))) for i in raw_items
         )
         if had_unavailable:
-            lines.append(f"{title}: 미운영")
+            line = f"{title}: 미운영"
+            lines.append(f"{icon} {line}" if icon else line)
 
     return "<br>".join(lines) if lines else "-"
+
+
+MEAL_EMOJI = {
+    "조식": "🌄",
+    "중식": "☀️",
+    "석식": "🌛",
+}
+
+
+def _meal_emoji(meal: str) -> str:
+    return MEAL_EMOJI.get(meal, "")
 
 
 def _format_aramark_entries(entries: list[dict]) -> str:
     lines: list[str] = []
     for entry in entries:
-        meal = _escape_md_text(normalize_space(entry.get("meal_time", "")))
+        meal_raw = normalize_space(entry.get("meal_time", ""))
+        meal = _escape_md_text(meal_raw)
         category = _escape_md_text(normalize_space(entry.get("category", "")))
         items = [_escape_md_text(normalize_space(i)) for i in entry.get("items", [])]
         menu = ", ".join([i for i in items if i]) if items else "-"
         prefix = join_non_empty([meal, category], " · ")
-        lines.append(f"**{prefix}**: {menu}" if prefix else menu)
+        icon = _meal_emoji(meal_raw)
+        if prefix:
+            line = f"**{prefix}**: {menu}"
+        else:
+            line = menu
+        lines.append(f"{icon} {line}" if icon else line)
     return "<br>".join(lines) if lines else "-"
 
 

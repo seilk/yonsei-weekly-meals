@@ -5,6 +5,20 @@ from pathlib import Path
 from src.utils import DAY_LABELS_KO, DAY_ORDER, join_non_empty, normalize_space
 
 
+def _escape_md_text(text: str) -> str:
+    # Escape markdown-significant characters that can break table rendering
+    # or create unintended emphasis in GitHub README.
+    escaped = text.replace("\\", "\\\\")
+    escaped = (
+        escaped.replace("|", "\\|")
+        .replace("_", "\\_")
+        .replace("*", "\\*")
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+    )
+    return escaped
+
+
 def _is_unavailable_text(text: str) -> bool:
     t = normalize_space(text).replace(".", "")
     return t in {"미운영", "*", ""}
@@ -26,9 +40,10 @@ def _format_item_with_price(item: dict) -> str:
     price = _format_price(raw_price)
     if not name or _is_unavailable_text(name):
         return ""
+    safe_name = _escape_md_text(name)
     if price:
-        return f"{name} ({price})"
-    return name
+        return f"{safe_name} ({_escape_md_text(price)})"
+    return safe_name
 
 
 def _format_yonsei_entries(entries: list[dict]) -> str:
@@ -43,7 +58,8 @@ def _format_yonsei_entries(entries: list[dict]) -> str:
             if formatted
         ]
 
-        title = f"**{category}**" if category else "**메뉴**"
+        safe_category = _escape_md_text(category)
+        title = f"**{safe_category}**" if safe_category else "**메뉴**"
         if visible_items:
             lines.append(f"{title}: {', '.join(visible_items)}")
             continue
@@ -60,10 +76,10 @@ def _format_yonsei_entries(entries: list[dict]) -> str:
 def _format_aramark_entries(entries: list[dict]) -> str:
     lines: list[str] = []
     for entry in entries:
-        meal = entry.get("meal_time", "")
-        category = entry.get("category", "")
-        items = entry.get("items", [])
-        menu = ", ".join(items) if items else "-"
+        meal = _escape_md_text(normalize_space(entry.get("meal_time", "")))
+        category = _escape_md_text(normalize_space(entry.get("category", "")))
+        items = [_escape_md_text(normalize_space(i)) for i in entry.get("items", [])]
+        menu = ", ".join([i for i in items if i]) if items else "-"
         prefix = join_non_empty([meal, category], " · ")
         lines.append(f"**{prefix}**: {menu}" if prefix else menu)
     return "<br>".join(lines) if lines else "-"
@@ -87,7 +103,8 @@ def _build_week_table(
 def _build_day_table(day_key: str, day_label: str, rows: list[tuple[str, str]]) -> str:
     lines = [f"<a id=\"day-{day_key}\"></a>", f"### {day_label}", "", "| 식당 | 메뉴 |", "|---|---|"]
     for restaurant, menu in rows:
-        lines.append(f"| {restaurant} | {menu or '-'} |")
+        safe_restaurant = _escape_md_text(restaurant)
+        lines.append(f"| {safe_restaurant} | {menu or '-'} |")
     return "\n".join(lines)
 
 

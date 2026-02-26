@@ -45,6 +45,13 @@ def _build_week_table(
     return "\n".join(lines)
 
 
+def _build_day_table(day_key: str, day_label: str, rows: list[tuple[str, str]]) -> str:
+    lines = [f"<a id=\"day-{day_key}\"></a>", f"### {day_label}", "", "| 식당 | 메뉴 |", "|---|---|"]
+    for restaurant, menu in rows:
+        lines.append(f"| {restaurant} | {menu or '-'} |")
+    return "\n".join(lines)
+
+
 def _find_restaurant(restaurants: list[dict], target_name: str) -> dict | None:
     for r in restaurants:
         if r.get("name") == target_name:
@@ -74,6 +81,41 @@ def render_readme(data: dict, template_path: Path) -> str:
     jonghap = _find_restaurant(aramark_restaurants, "종합관")
     jejung = _find_restaurant(aramark_restaurants, "제중관")
 
+    day_sections: list[str] = []
+    for day_key in DAY_ORDER:
+        day_label = _day_label(day_key, week_labels)
+        rows = [
+            (
+                "연세대학교 맛나샘",
+                _format_yonsei_entries(manna.get("week", {}).get(day_key, []))
+                if manna
+                else "-",
+            ),
+            (
+                "연세대학교 한경관(어울샘)",
+                _format_yonsei_entries(eoulsam.get("week", {}).get(day_key, []))
+                if eoulsam
+                else "-",
+            ),
+            (
+                "세브란스 종합관",
+                _format_aramark_entries(jonghap.get("week", {}).get(day_key, []))
+                if jonghap
+                else "-",
+            ),
+            (
+                "세브란스 제중관",
+                _format_aramark_entries(jejung.get("week", {}).get(day_key, []))
+                if jejung
+                else "-",
+            ),
+        ]
+        day_sections.append(_build_day_table(day_key, day_label, rows))
+
+    day_quick_links = " | ".join(
+        [f"[{_day_label(day, week_labels)}](#day-{day})" for day in DAY_ORDER]
+    )
+
     values = {
         "last_updated": data.get("generated_at", "-"),
         "source_yonsei": "https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp",
@@ -82,6 +124,8 @@ def render_readme(data: dict, template_path: Path) -> str:
         "summary_hankyung": _menu_count(eoulsam),
         "summary_jonghap": _menu_count(jonghap),
         "summary_jejung": _menu_count(jejung),
+        "day_quick_links": day_quick_links,
+        "day_view_sections": "\n\n".join(day_sections),
         "table_manna": _build_week_table(
             manna.get("week", {}), _format_yonsei_entries, week_labels
         )

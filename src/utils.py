@@ -64,3 +64,7 @@ def build_week_labels_from_kst_now() -> dict[str, str]:
         day_date = monday + timedelta(days=idx)
         labels[day_key] = f"{DAY_LABELS_KO[day_key]}({day_date.strftime('%m/%d')})"
     return labels
+
+
+def today_day_key_kst() -> str:
+    return DAY_ORDER[datetime.now(ZoneInfo("Asia/Seoul")).weekday()]

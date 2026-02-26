@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T06:51:31+09:00",
+  "generated_at": "2026-02-27T06:55:33+09:00",
   "week_labels": {
     "mon": "월(02/23)",
     "tue": "화(02/24)",
@@ -9,6 +9,8 @@
     "sat": "토(02/28)",
     "sun": "일(03/01)"
   },
+  "today_key": "fri",
+  "today_label": "금(02/27)",
   "sources": [
     {
       "name": "yonsei_weekly_menu",

@@ -6,16 +6,21 @@ from pathlib import Path
 from src.parsers.aramark import parse_aramark
 from src.parsers.yonsei import parse_yonsei
 from src.readme_generator import render_readme
-from src.utils import build_week_labels_from_kst_now, kst_now_iso
+from src.utils import build_week_labels_from_kst_now, kst_now_iso, today_day_key_kst
 
 
 def build_payload() -> dict:
     yonsei_restaurants = parse_yonsei()
     aramark_restaurants = parse_aramark()
 
+    week_labels = build_week_labels_from_kst_now()
+    today_key = today_day_key_kst()
+
     return {
         "generated_at": kst_now_iso(),
-        "week_labels": build_week_labels_from_kst_now(),
+        "week_labels": week_labels,
+        "today_key": today_key,
+        "today_label": week_labels.get(today_key, today_key),
         "sources": [
             {
                 "name": "yonsei_weekly_menu",

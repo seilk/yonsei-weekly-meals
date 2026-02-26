@@ -2,7 +2,7 @@ name: Update Weekly Menus
 
 on:
   schedule:
-    - cron: "30 15 * * 0"
+    - cron: "30 15 * * *"
   workflow_dispatch:
 
 permissions:

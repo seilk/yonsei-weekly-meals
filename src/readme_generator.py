@@ -271,10 +271,8 @@ def render_readme(data: dict, template_path: Path) -> str:
     jonghap = _find_restaurant(aramark_restaurants, "종합관")
     jejung = _find_restaurant(aramark_restaurants, "제중관")
 
-    day_sections: list[str] = []
-    for day_key in DAY_ORDER:
-        day_label = _day_label(day_key, week_labels)
-        rows = [
+    def day_rows(day_key: str) -> list[tuple[str, str]]:
+        return [
             (
                 "연세대학교 맛나샘",
                 _format_yonsei_entries(manna.get("week", {}).get(day_key, []))
@@ -300,6 +298,11 @@ def render_readme(data: dict, template_path: Path) -> str:
                 else "-",
             ),
         ]
+
+    day_sections: list[str] = []
+    for day_key in DAY_ORDER:
+        day_label = _day_label(day_key, week_labels)
+        rows = day_rows(day_key)
         day_sections.append(_build_day_table(day_key, day_label, rows))
 
     day_quick_links = " | ".join(
@@ -315,6 +318,17 @@ def render_readme(data: dict, template_path: Path) -> str:
         ]
     )
 
+    today_key = data.get("today_key", DAY_ORDER[0])
+    today_label = data.get("today_label", _day_label(today_key, week_labels))
+    today_rows = day_rows(today_key)
+    today_menu_section = "\n".join(
+        ["| 식당 | 메뉴 |", "|---|---|"]
+        + [
+            f"| {_escape_md_text(name)} | {menu or '-'} |"
+            for name, menu in today_rows
+        ]
+    )
+
     values = {
         "last_updated": data.get("generated_at", "-"),
         "source_yonsei": "https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp",
@@ -323,6 +337,9 @@ def render_readme(data: dict, template_path: Path) -> str:
         "summary_hankyung": _menu_count(eoulsam),
         "summary_jonghap": _menu_count(jonghap),
         "summary_jejung": _menu_count(jejung),
+        "today_key": today_key,
+        "today_label": today_label,
+        "today_menu_section": today_menu_section,
         "operating_hours_section": operating_hours_section,
         "day_quick_links": day_quick_links,
         "day_view_sections": "\n\n".join(day_sections),

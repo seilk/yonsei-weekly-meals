@@ -10,9 +10,20 @@ def _is_unavailable_text(text: str) -> bool:
     return t in {"미운영", "*", ""}
 
 
+def _format_price(price: str) -> str:
+    p = normalize_space(price)
+    if not p:
+        return ""
+    digits = "".join(ch for ch in p if ch.isdigit())
+    if not digits:
+        return p
+    return f"{int(digits):,}원"
+
+
 def _format_item_with_price(item: dict) -> str:
     name = normalize_space(item.get("name", ""))
-    price = normalize_space(str(item.get("price", "")))
+    raw_price = normalize_space(str(item.get("price", "")))
+    price = _format_price(raw_price)
     if not name or _is_unavailable_text(name):
         return ""
     if price:

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 from src.utils import DAY_LABELS_KO, DAY_ORDER, join_non_empty, normalize_space
 
@@ -157,14 +158,105 @@ def _menu_count(rest: dict | None) -> int:
     return sum(len(rest.get("week", {}).get(day, [])) for day in DAY_ORDER)
 
 
-def _one_line_operating_hours(rest: dict | None) -> str:
+def _format_operating_hours(rest: dict | None) -> str:
     if not rest:
         return "-"
-    hours = normalize_space(rest.get("operating_hours", ""))
-    if not hours:
+
+    raw = (rest.get("operating_hours", "") or "").replace("\r", "")
+    if not raw.strip():
         return "-"
-    # keep one-line display for README readability
-    return _escape_md_text(hours.replace("\n", " / "))
+
+    lines = [normalize_space(line) for line in raw.split("\n") if normalize_space(line)]
+    if not lines:
+        return "-"
+
+    grouped: dict[str, dict[str, list[str]]] = {
+        "학기중": {"평일": [], "주말": [], "기타": []},
+        "방학중": {"평일": [], "주말": [], "기타": []},
+        "기타": {"평일": [], "주말": [], "기타": []},
+    }
+
+    def classify_day(line: str) -> str | None:
+        if "평일" in line:
+            return "평일"
+        if any(tok in line for tok in ["토요일", "일요일", "주말", "공휴일"]):
+            return "주말"
+        return None
+
+    current_period = "기타"
+    current_day = "기타"
+
+    for line in lines:
+        # Pattern like: "1층 운영시간 : 학기중(...), 방학중(...)"
+        dual = re.match(
+            r"^(.*?)(?:\s*[:：]\s*)?학기중\(([^)]*)\)\s*,?\s*방학중\(([^)]*)\)\s*$",
+            line,
+        )
+        if dual:
+            label = normalize_space(dual.group(1)) or "운영시간"
+            grouped["학기중"]["기타"].append(f"{label}: {normalize_space(dual.group(2))}")
+            grouped["방학중"]["기타"].append(f"{label}: {normalize_space(dual.group(3))}")
+            continue
+
+        if "학기중" in line:
+            current_period = "학기중"
+            remainder = normalize_space(
+                re.sub(r"[■\-\s]*학기중\s*운영시간?\s*", "", line)
+            )
+            if remainder:
+                grouped[current_period][current_day].append(remainder)
+            continue
+
+        if "방학중" in line:
+            current_period = "방학중"
+            remainder = normalize_space(
+                re.sub(r"[■\-\s]*방학중\s*운영시간?\s*", "", line)
+            )
+            if remainder:
+                grouped[current_period][current_day].append(remainder)
+            continue
+
+        day_key = classify_day(line)
+        if day_key:
+            current_day = day_key
+            # For sentence-style policy lines, preserve original text.
+            if any(tok in line for tok in ["휴무", "변경", "안내"]):
+                grouped[current_period][current_day].append(line)
+                continue
+
+            remainder = line
+            for token in ["평일", "토요일", "일요일", "주말", "공휴일"]:
+                remainder = remainder.replace(token, "")
+            remainder = normalize_space(remainder.strip(" :,-"))
+            if remainder:
+                grouped[current_period][current_day].append(remainder)
+            continue
+
+        grouped[current_period][current_day].append(line)
+
+    # Render with explicit hierarchy: 학기중/방학중 → 평일/주말
+    rendered: list[str] = []
+    for period in ["학기중", "방학중", "기타"]:
+        block = grouped[period]
+        has_content = any(block[k] for k in ["평일", "주말", "기타"])
+        if not has_content:
+            continue
+
+        if period != "기타":
+            rendered.append(f"**{_escape_md_text(period)}**")
+
+        for day_key in ["평일", "주말"]:
+            items = block[day_key]
+            if not items:
+                continue
+            rendered.append(f"- {_escape_md_text(day_key)}")
+            for item in items:
+                rendered.append(f"  - {_escape_md_text(item)}")
+
+        for item in block["기타"]:
+            rendered.append(f"- {_escape_md_text(item)}")
+
+    return "\n".join(rendered) if rendered else "-"
 
 
 def render_readme(data: dict, template_path: Path) -> str:
@@ -214,14 +306,12 @@ def render_readme(data: dict, template_path: Path) -> str:
         [f"[{_day_label(day, week_labels)}](#day-{day})" for day in DAY_ORDER]
     )
 
-    operating_hours_section = "\n".join(
+    operating_hours_section = "\n\n".join(
         [
-            "| 식당 | 운영시간 |",
-            "|---|---|",
-            f"| 연세대학교 맛나샘 | {_one_line_operating_hours(manna)} |",
-            f"| 연세대학교 한경관(어울샘) | {_one_line_operating_hours(eoulsam)} |",
-            f"| 세브란스 종합관 | {_one_line_operating_hours(jonghap)} |",
-            f"| 세브란스 제중관 | {_one_line_operating_hours(jejung)} |",
+            "### 연세대학교 맛나샘\n" + _format_operating_hours(manna),
+            "### 연세대학교 한경관(어울샘)\n" + _format_operating_hours(eoulsam),
+            "### 세브란스 종합관\n" + _format_operating_hours(jonghap),
+            "### 세브란스 제중관\n" + _format_operating_hours(jejung),
         ]
     )
 

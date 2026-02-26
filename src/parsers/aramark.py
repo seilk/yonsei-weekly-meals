@@ -6,7 +6,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from src.utils import DAY_FROM_KO, init_week_map, normalize_space
+from src.utils import DAY_FROM_KO, build_retry_session, init_week_map, normalize_space
 
 BASE_URL = "http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp"
 MEAL_TIME_MAP = {"m": "조식", "a": "중식", "e": "석식"}
@@ -26,9 +26,17 @@ def day_key_from_label(label: str) -> str | None:
     return DAY_FROM_KO.get(match.group(1))
 
 
-def fetch_aramark_html(meal_time: str, fz_no: int, timeout: int = 30) -> str:
-    resp = requests.get(
-        BASE_URL, params={"meal_time": meal_time, "fz_no": str(fz_no)}, timeout=timeout
+def fetch_aramark_html(
+    meal_time: str,
+    fz_no: int,
+    timeout: int = 30,
+    session: requests.Session | None = None,
+) -> str:
+    sess = session or build_retry_session()
+    resp = sess.get(
+        BASE_URL,
+        params={"meal_time": meal_time, "fz_no": str(fz_no)},
+        timeout=timeout,
     )
     resp.raise_for_status()
     resp.encoding = resp.apparent_encoding or resp.encoding
@@ -85,9 +93,14 @@ def parse_aramark() -> list[dict]:
             "week": init_week_map(),
         }
 
+    session = build_retry_session()
     for fz_no in RESTAURANT_MAP:
         for meal_time in MEAL_TIME_MAP:
-            html = fetch_aramark_html(meal_time=meal_time, fz_no=fz_no)
+            html = fetch_aramark_html(
+                meal_time=meal_time,
+                fz_no=fz_no,
+                session=session,
+            )
             parsed = parse_aramark_html(html, meal_time=meal_time)
             for day_key, entries in parsed.items():
                 restaurants[fz_no]["week"][day_key].extend(entries)

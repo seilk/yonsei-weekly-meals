@@ -6,6 +6,10 @@ from typing import Iterable
 import re
 from zoneinfo import ZoneInfo
 
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+
 DAY_ORDER = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 DAY_LABELS_KO = {
     "mon": "월",
@@ -68,3 +72,24 @@ def build_week_labels_from_kst_now() -> dict[str, str]:
 
 def today_day_key_kst() -> str:
     return DAY_ORDER[datetime.now(ZoneInfo("Asia/Seoul")).weekday()]
+
+
+def build_retry_session(
+    total_retries: int = 3,
+    backoff_factor: float = 0.5,
+    status_forcelist: tuple[int, ...] = (429, 500, 502, 503, 504),
+) -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=total_retries,
+        connect=total_retries,
+        read=total_retries,
+        backoff_factor=backoff_factor,
+        status_forcelist=status_forcelist,
+        allowed_methods=frozenset({"GET"}),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session

@@ -122,17 +122,6 @@ def _day_label(day_key: str, week_labels: dict[str, str]) -> str:
     return week_labels.get(day_key) or DAY_LABELS_KO.get(day_key, day_key)
 
 
-def _build_week_table(
-    week: dict[str, list[dict]], formatter, week_labels: dict[str, str]
-) -> str:
-    lines = ["| 요일(날짜) | 메뉴 |", "|---|---|"]
-    for day_key in DAY_ORDER:
-        day_label = _day_label(day_key, week_labels)
-        value = formatter(week.get(day_key, []))
-        lines.append(f"| {day_label} | {value} |")
-    return "\n".join(lines)
-
-
 def _build_day_table(day_key: str, day_label: str, rows: list[tuple[str, str]]) -> str:
     lines = [f"<a id=\"day-{day_key}\"></a>", f"### {day_label}", "", "| 식당 | 메뉴 |", "|---|---|"]
     for restaurant, menu in rows:
@@ -141,21 +130,30 @@ def _build_day_table(day_key: str, day_label: str, rows: list[tuple[str, str]]) 
     return "\n".join(lines)
 
 
+def _normalize_restaurant_name(name: str) -> str:
+    cleaned = normalize_space(name)
+    cleaned = re.sub(r"\s+", "", cleaned)
+    cleaned = cleaned.replace("(", "").replace(")", "")
+    return cleaned
+
+
 def _find_restaurant(restaurants: list[dict], target_name: str) -> dict | None:
+    aliases: dict[str, list[str]] = {
+        "맛나샘": ["맛나샘", "연세대학교맛나샘"],
+        "어울샘(한경관)": ["어울샘(한경관)", "어울샘한경관", "한경관", "어울샘"],
+        "종합관": ["종합관", "연세의료원종합관", "세브란스종합관"],
+        "제중관": ["제중관", "연세의료원제중관", "세브란스제중관"],
+    }
+
+    wanted = {_normalize_restaurant_name(target_name)}
+    for alias in aliases.get(target_name, []):
+        wanted.add(_normalize_restaurant_name(alias))
+
     for r in restaurants:
-        if r.get("name") == target_name:
+        name = _normalize_restaurant_name(r.get("name", ""))
+        if name in wanted:
             return r
     return None
-
-
-def _fallback_table(message: str) -> str:
-    return "\n".join(["| 요일(날짜) | 메뉴 |", "|---|---|", f"| - | {message} |"])
-
-
-def _menu_count(rest: dict | None) -> int:
-    if not rest:
-        return 0
-    return sum(len(rest.get("week", {}).get(day, [])) for day in DAY_ORDER)
 
 
 def _format_operating_hours(rest: dict | None) -> str:
@@ -332,40 +330,23 @@ def render_readme(data: dict, template_path: Path) -> str:
         ]
     )
 
+    warnings = [normalize_space(w) for w in data.get("warnings", []) if normalize_space(w)]
+    warnings_section = ""
+    if warnings:
+        warnings_md = "\n".join([f"- { _escape_md_text(w) }" for w in warnings])
+        warnings_section = "## 수집 경고\n\n" + warnings_md
+
     values = {
         "last_updated": data.get("generated_at", "-"),
         "source_yonsei": "https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp",
         "source_aramark": "http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp",
-        "summary_manna": _menu_count(manna),
-        "summary_hankyung": _menu_count(eoulsam),
-        "summary_jonghap": _menu_count(jonghap),
-        "summary_jejung": _menu_count(jejung),
+        "warnings_section": warnings_section,
         "today_key": today_key,
         "today_label": today_label,
         "today_menu_section": today_menu_section,
         "operating_hours_section": operating_hours_section,
         "day_quick_links": day_quick_links,
         "day_view_sections": "\n\n".join(day_sections),
-        "table_manna": _build_week_table(
-            manna.get("week", {}), _format_yonsei_entries, week_labels
-        )
-        if manna
-        else _fallback_table("연세대학교 맛나샘 데이터가 없습니다."),
-        "table_hankyung": _build_week_table(
-            eoulsam.get("week", {}), _format_yonsei_entries, week_labels
-        )
-        if eoulsam
-        else _fallback_table("연세대학교 한경관(어울샘) 데이터가 없습니다."),
-        "table_jonghap": _build_week_table(
-            jonghap.get("week", {}), _format_aramark_entries, week_labels
-        )
-        if jonghap
-        else _fallback_table("세브란스 종합관 데이터가 없습니다."),
-        "table_jejung": _build_week_table(
-            jejung.get("week", {}), _format_aramark_entries, week_labels
-        )
-        if jejung
-        else _fallback_table("세브란스 제중관 데이터가 없습니다."),
     }
 
     return template.format(**values)

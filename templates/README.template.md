@@ -7,6 +7,8 @@
   - Yonsei weekly menu: {source_yonsei}
   - Aramark mobile: {source_aramark}
 
+{warnings_section}
+
 ## 식당별 운영시간
 
 {operating_hours_section}

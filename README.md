@@ -2,10 +2,12 @@
 
 연세대학교 + 세브란스(아라마크) 주간 식단을 모아서 `README`와 `data/weekly.json`을 자동 생성합니다.
 
-- Last updated (KST): **2026-02-27T06:58:18+09:00**
+- Last updated (KST): **2026-02-27T07:08:28+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
+
+
 
 ## 식당별 운영시간
 

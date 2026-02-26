@@ -1,4 +1,4 @@
-name: Update Weekly Menus
+name: Update Daily Menus
 
 on:
   schedule:
@@ -30,10 +30,10 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          git add README.md data/weekly.json
+          if [ -n "$(git diff --cached --name-only)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md data/weekly.json
-            git commit -m "chore: weekly menu auto-update"
+            git commit -m "chore: daily menu auto-update"
             git push
           fi

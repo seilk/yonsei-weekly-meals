@@ -7,13 +7,22 @@ from collections import OrderedDict
 import requests
 from bs4 import BeautifulSoup
 
-from src.utils import DAY_ORDER, clean_multiline_text, init_week_map, normalize_space
+from src.utils import (
+    DAY_ORDER,
+    build_retry_session,
+    clean_multiline_text,
+    init_week_map,
+    normalize_space,
+)
 
 YONSEI_URL = "https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp"
 
 
-def fetch_yonsei_html(timeout: int = 30) -> str:
-    resp = requests.get(YONSEI_URL, timeout=timeout)
+def fetch_yonsei_html(
+    timeout: int = 30, session: requests.Session | None = None
+) -> str:
+    sess = session or build_retry_session()
+    resp = sess.get(YONSEI_URL, timeout=timeout)
     resp.raise_for_status()
     return resp.text
 
@@ -78,6 +87,7 @@ def parse_yonsei_week_data(week_data: list) -> list[dict]:
 
 
 def parse_yonsei() -> list[dict]:
-    html = fetch_yonsei_html()
+    session = build_retry_session()
+    html = fetch_yonsei_html(session=session)
     week_data = extract_week_data_json(html)
     return parse_yonsei_week_data(week_data)

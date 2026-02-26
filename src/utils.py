@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from html import unescape
 from typing import Iterable
 import re
@@ -53,3 +53,14 @@ def join_non_empty(values: Iterable[str], sep: str = ", ") -> str:
 
 def init_week_map() -> dict[str, list[dict]]:
     return {day: [] for day in DAY_ORDER}
+
+
+def build_week_labels_from_kst_now() -> dict[str, str]:
+    now_kst = datetime.now(ZoneInfo("Asia/Seoul")).date()
+    monday = now_kst - timedelta(days=now_kst.weekday())
+
+    labels: dict[str, str] = {}
+    for idx, day_key in enumerate(DAY_ORDER):
+        day_date = monday + timedelta(days=idx)
+        labels[day_key] = f"{DAY_LABELS_KO[day_key]}({day_date.strftime('%m/%d')})"
+    return labels

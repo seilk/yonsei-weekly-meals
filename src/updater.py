@@ -6,7 +6,7 @@ from pathlib import Path
 from src.parsers.aramark import parse_aramark
 from src.parsers.yonsei import parse_yonsei
 from src.readme_generator import render_readme
-from src.utils import kst_now_iso
+from src.utils import build_week_labels_from_kst_now, kst_now_iso
 
 
 def build_payload() -> dict:
@@ -15,6 +15,7 @@ def build_payload() -> dict:
 
     return {
         "generated_at": kst_now_iso(),
+        "week_labels": build_week_labels_from_kst_now(),
         "sources": [
             {
                 "name": "yonsei_weekly_menu",

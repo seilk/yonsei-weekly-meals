@@ -1,11 +1,24 @@
 # Yonsei Weekly Meals Aggregator
 
-연세대학교 및 세브란스 식단 정보를 주간 단위로 수집해 정규화된 JSON과 README 테이블을 자동 생성합니다.
+연세대학교 + 세브란스(아라마크) 주간 식단을 모아서 `README`와 `data/weekly.json`을 자동 생성합니다.
 
-- Last updated (KST): {last_updated}
+- Last updated (KST): **{last_updated}**
 - Sources:
   - Yonsei weekly menu: {source_yonsei}
   - Aramark mobile: {source_aramark}
+
+## 이번 주 반영 요약
+
+| 식당 | 메뉴 엔트리 수 |
+|---|---:|
+| 연세대학교 맛나샘 | {summary_manna} |
+| 연세대학교 한경관(어울샘) | {summary_hankyung} |
+| 세브란스 종합관 | {summary_jonghap} |
+| 세브란스 제중관 | {summary_jejung} |
+
+> 표의 날짜는 `요일(월/일)` 형식입니다.
+
+---
 
 ## 연세대학교 맛나샘
 

@@ -2,32 +2,15 @@
 
 연세대학교 + 세브란스(아라마크) 주간 식단을 모아서 `README`와 `data/weekly.json`을 자동 생성합니다.
 
-- Last updated (KST): **2026-02-27T06:31:01+09:00**
+- Last updated (KST): **2026-02-27T06:32:09+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
 
-## 이번 주 반영 요약
-
-| 식당 | 메뉴 엔트리 수 |
-|---|---:|
-| 연세대학교 맛나샘 | 42 |
-| 연세대학교 한경관(어울샘) | 21 |
-| 세브란스 종합관 | 46 |
-| 세브란스 제중관 | 42 |
-
-> 표의 날짜는 `요일(월/일)` 형식입니다.
-
-## 바로가기
-
-- [요일별 보기](#요일별-보기)
+## 요일별 보기
 
 ### 요일 빠른 이동
 [월(02/23)](#day-mon) | [화(02/24)](#day-tue) | [수(02/25)](#day-wed) | [목(02/26)](#day-thu) | [금(02/27)](#day-fri) | [토(02/28)](#day-sat) | [일(03/01)](#day-sun)
-
----
-
-## 요일별 보기
 
 <a id="day-mon"></a>
 ### 월(02/23)

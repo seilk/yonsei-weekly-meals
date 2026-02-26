@@ -36,13 +36,15 @@ def _format_price(price: str) -> str:
     return f"{int(digits):,}원"
 
 
-def _format_item_with_price(item: dict) -> str:
+def _format_item_with_price(item: dict, hide_price: bool = False) -> str:
     name = normalize_space(item.get("name", ""))
     raw_price = normalize_space(str(item.get("price", "")))
     price = _format_price(raw_price)
     if not name or _is_unavailable_text(name):
         return ""
     safe_name = _escape_md_text(name)
+    if hide_price:
+        return safe_name
     if price:
         return f"{safe_name} ({_escape_md_text(price)})"
     return safe_name
@@ -59,15 +61,22 @@ def _category_emoji(category: str) -> str:
     return ""
 
 
-def _format_yonsei_entries(entries: list[dict]) -> str:
+def _format_yonsei_entries(entries: list[dict], restaurant_name: str = "") -> str:
     lines: list[str] = []
     for section in entries:
         category = normalize_space(section.get("category", ""))
         raw_items = section.get("items", [])
 
+        hide_price = (
+            normalize_space(restaurant_name) == "맛나샘"
+            and category in {"공통메뉴", "샐러드바"}
+        )
+
         visible_items = [
             formatted
-            for formatted in (_format_item_with_price(i) for i in raw_items)
+            for formatted in (
+                _format_item_with_price(i, hide_price=hide_price) for i in raw_items
+            )
             if formatted
         ]
 
@@ -276,13 +285,19 @@ def render_readme(data: dict, template_path: Path) -> str:
         return [
             (
                 "연세대학교 맛나샘",
-                _format_yonsei_entries(manna.get("week", {}).get(day_key, []))
+                _format_yonsei_entries(
+                    manna.get("week", {}).get(day_key, []),
+                    restaurant_name=manna.get("name", ""),
+                )
                 if manna
                 else "-",
             ),
             (
                 "연세대학교 한경관(어울샘)",
-                _format_yonsei_entries(eoulsam.get("week", {}).get(day_key, []))
+                _format_yonsei_entries(
+                    eoulsam.get("week", {}).get(day_key, []),
+                    restaurant_name=eoulsam.get("name", ""),
+                )
                 if eoulsam
                 else "-",
             ),

@@ -156,6 +156,16 @@ def _menu_count(rest: dict | None) -> int:
     return sum(len(rest.get("week", {}).get(day, [])) for day in DAY_ORDER)
 
 
+def _one_line_operating_hours(rest: dict | None) -> str:
+    if not rest:
+        return "-"
+    hours = normalize_space(rest.get("operating_hours", ""))
+    if not hours:
+        return "-"
+    # keep one-line display for README readability
+    return hours.replace("\n", " / ")
+
+
 def render_readme(data: dict, template_path: Path) -> str:
     template = template_path.read_text(encoding="utf-8")
 
@@ -203,6 +213,17 @@ def render_readme(data: dict, template_path: Path) -> str:
         [f"[{_day_label(day, week_labels)}](#day-{day})" for day in DAY_ORDER]
     )
 
+    operating_hours_section = "\n".join(
+        [
+            "| 식당 | 운영시간 |",
+            "|---|---|",
+            f"| 연세대학교 맛나샘 | {_one_line_operating_hours(manna)} |",
+            f"| 연세대학교 한경관(어울샘) | {_one_line_operating_hours(eoulsam)} |",
+            f"| 세브란스 종합관 | {_one_line_operating_hours(jonghap)} |",
+            f"| 세브란스 제중관 | {_one_line_operating_hours(jejung)} |",
+        ]
+    )
+
     values = {
         "last_updated": data.get("generated_at", "-"),
         "source_yonsei": "https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp",
@@ -211,6 +232,7 @@ def render_readme(data: dict, template_path: Path) -> str:
         "summary_hankyung": _menu_count(eoulsam),
         "summary_jonghap": _menu_count(jonghap),
         "summary_jejung": _menu_count(jejung),
+        "operating_hours_section": operating_hours_section,
         "day_quick_links": day_quick_links,
         "day_view_sections": "\n\n".join(day_sections),
         "table_manna": _build_week_table(

@@ -2,19 +2,47 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from src.utils import DAY_LABELS_KO, DAY_ORDER, join_non_empty
+from src.utils import DAY_LABELS_KO, DAY_ORDER, join_non_empty, normalize_space
+
+
+def _is_unavailable_text(text: str) -> bool:
+    t = normalize_space(text).replace(".", "")
+    return t in {"미운영", "*", ""}
+
+
+def _format_item_with_price(item: dict) -> str:
+    name = normalize_space(item.get("name", ""))
+    price = normalize_space(str(item.get("price", "")))
+    if not name or _is_unavailable_text(name):
+        return ""
+    if price:
+        return f"{name} ({price})"
+    return name
 
 
 def _format_yonsei_entries(entries: list[dict]) -> str:
     lines: list[str] = []
     for section in entries:
-        category = section.get("category", "")
-        items = [
-            i.get("name", "") for i in section.get("items", []) if i.get("name", "")
+        category = normalize_space(section.get("category", ""))
+        raw_items = section.get("items", [])
+
+        visible_items = [
+            formatted
+            for formatted in (_format_item_with_price(i) for i in raw_items)
+            if formatted
         ]
-        if items:
-            title = f"**{category}**" if category else "**메뉴**"
-            lines.append(f"{title}: {', '.join(items)}")
+
+        title = f"**{category}**" if category else "**메뉴**"
+        if visible_items:
+            lines.append(f"{title}: {', '.join(visible_items)}")
+            continue
+
+        had_unavailable = any(
+            _is_unavailable_text(normalize_space(i.get("name", ""))) for i in raw_items
+        )
+        if had_unavailable:
+            lines.append(f"{title}: 미운영")
+
     return "<br>".join(lines) if lines else "-"
 
 

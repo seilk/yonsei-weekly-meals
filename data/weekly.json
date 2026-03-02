@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T06:06:31+09:00",
+  "generated_at": "2026-03-03T06:12:32+09:00",
   "week_labels": {
     "mon": "월(03/02)",
     "tue": "화(03/03)",
@@ -9,11 +9,9 @@
     "sat": "토(03/07)",
     "sun": "일(03/08)"
   },
-  "today_key": "mon",
-  "today_label": "월(03/02)",
+  "today_key": "tue",
+  "today_label": "화(03/03)",
   "warnings": [
-    "Yonsei parser failed: weekData variable not found in Yonsei page",
-    "Yonsei data is empty.",
     "Yonsei expected restaurant missing: 맛나샘",
     "Yonsei expected restaurant missing: 어울샘(한경관)"
   ],
@@ -28,7 +26,135 @@
     }
   ],
   "yonsei_university": {
-    "restaurants": []
+    "restaurants": [
+      {
+        "name": "부를샘",
+        "campus": "신촌",
+        "group": "yonsei_university",
+        "operating_hours": "※ 운영시간\n- 11:00~18:00\n브레이크타임\n-14:00~16:00\n- 토요일\n- 11:00~14:00",
+        "notes": "신촌캠퍼스 학생회관 1층\n연락처 02-2123-4073\n원산지 및 알레르기 성분 고지 : 각 매장별 별도 표기",
+        "week": {
+          "mon": [
+            {
+              "category": "오눌의뷔페",
+              "items": []
+            },
+            {
+              "category": "세트메뉴",
+              "items": []
+            }
+          ],
+          "tue": [
+            {
+              "category": "오눌의뷔페",
+              "items": [
+                {
+                  "name": "돈가스 미트소스스파게티 모닝빵&알새우칩 오이피클 크림스프 샐러드&딸기드레싱 쌀밥 배추김치",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
+            },
+            {
+              "category": "세트메뉴",
+              "items": [
+                {
+                  "name": "뷔페&탄두리치킨",
+                  "price": "13000",
+                  "time_code": "XOX"
+                }
+              ]
+            }
+          ],
+          "wed": [
+            {
+              "category": "오눌의뷔페",
+              "items": [
+                {
+                  "name": "카레라이스 감자크로켓 순대찜 쫄면야채무침 우동국 샐러드&키위드레싱 배추김치",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
+            },
+            {
+              "category": "세트메뉴",
+              "items": [
+                {
+                  "name": "뷔페&탄두리치킨",
+                  "price": "13000",
+                  "time_code": "XOX"
+                }
+              ]
+            }
+          ],
+          "thu": [
+            {
+              "category": "오눌의뷔페",
+              "items": [
+                {
+                  "name": "야끼우동 치킨너겟 감자버터구이 단무지 우동국 샐러드&요거트드레싱 쌀밥 배추김치",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
+            },
+            {
+              "category": "세트메뉴",
+              "items": [
+                {
+                  "name": "뷔페&떡갈비구이",
+                  "price": "11000",
+                  "time_code": "XOX"
+                }
+              ]
+            }
+          ],
+          "fri": [
+            {
+              "category": "오눌의뷔페",
+              "items": [
+                {
+                  "name": "제육김치볶음//베지제육김치볶음 계란찜 콩나물무침 미니열무비빔밥 미소된장국 그린샐러드*유자드레싱 깍두기",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
+            },
+            {
+              "category": "세트메뉴",
+              "items": [
+                {
+                  "name": "뷔페&떡갈비구이",
+                  "price": "11000",
+                  "time_code": "XOX"
+                }
+              ]
+            }
+          ],
+          "sat": [
+            {
+              "category": "오눌의뷔페",
+              "items": []
+            },
+            {
+              "category": "세트메뉴",
+              "items": []
+            }
+          ],
+          "sun": [
+            {
+              "category": "오눌의뷔페",
+              "items": []
+            },
+            {
+              "category": "세트메뉴",
+              "items": []
+            }
+          ]
+        }
+      }
+    ]
   },
   "severance_aramark": {
     "restaurants": [

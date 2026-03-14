@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T09:36:57+09:00",
+  "generated_at": "2026-03-14T09:35:14+09:00",
   "week_labels": {
     "mon": "월(03/09)",
     "tue": "화(03/10)",
@@ -9,8 +9,8 @@
     "sat": "토(03/14)",
     "sun": "일(03/15)"
   },
-  "today_key": "fri",
-  "today_label": "금(03/13)",
+  "today_key": "sat",
+  "today_label": "토(03/14)",
   "warnings": [],
   "sources": [
     {

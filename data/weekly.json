@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T09:41:19+09:00",
+  "generated_at": "2026-03-27T09:41:59+09:00",
   "week_labels": {
     "mon": "월(03/23)",
     "tue": "화(03/24)",
@@ -9,8 +9,8 @@
     "sat": "토(03/28)",
     "sun": "일(03/29)"
   },
-  "today_key": "thu",
-  "today_label": "목(03/26)",
+  "today_key": "fri",
+  "today_label": "금(03/27)",
   "warnings": [],
   "sources": [
     {
@@ -484,22 +484,22 @@
               "category": "아침 (조식)",
               "items": [
                 {
+                  "name": "순두부찌개",
+                  "price": "1,000원",
+                  "time_code": "OXX"
+                },
+                {
+                  "name": "쌀밥",
+                  "price": "",
+                  "time_code": "XXX"
+                },
+                {
                   "name": "미운영.",
                   "price": "",
                   "time_code": "XXX"
                 },
                 {
                   "name": "*",
-                  "price": "",
-                  "time_code": "XXX"
-                },
-                {
-                  "name": "참치김치덮밥&계란후라이",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "우동국",
                   "price": "",
                   "time_code": "XXX"
                 }
@@ -4117,16 +4117,6 @@
             },
             {
               "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "김치볶음밥*지단채",
-                "부추계란국",
-                "빌소세지야채볶음*머스타드S",
-                "깍두기"
-              ]
-            },
-            {
-              "meal_time": "중식",
               "category": "샐러드바",
               "items": [
                 "양상추샐러드",
@@ -4148,23 +4138,6 @@
             }
           ],
           "fri": [
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "고추장제육덮밥*상추채",
-                "볼어묵무국",
-                "고구마고로케",
-                "깍두기"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드"
-              ]
-            },
             {
               "meal_time": "석식",
               "category": "한식",

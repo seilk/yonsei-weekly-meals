@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T09:42:05+09:00",
+  "generated_at": "2026-04-04T09:39:19+09:00",
   "week_labels": {
     "mon": "월(03/30)",
     "tue": "화(03/31)",
@@ -9,8 +9,8 @@
     "sat": "토(04/04)",
     "sun": "일(04/05)"
   },
-  "today_key": "fri",
-  "today_label": "금(04/03)",
+  "today_key": "sat",
+  "today_label": "토(04/04)",
   "warnings": [],
   "sources": [
     {
@@ -544,7 +544,7 @@
               "category": "동방식객 /모던키친",
               "items": [
                 {
-                  "name": "뚝배기로제파스타& 바게트",
+                  "name": "뚝배기파스타& 바게트",
                   "price": "6500",
                   "time_code": "XOO"
                 },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T09:42:59+09:00",
+  "generated_at": "2026-04-08T09:43:09+09:00",
   "week_labels": {
     "mon": "월(04/06)",
     "tue": "화(04/07)",
@@ -9,8 +9,8 @@
     "sat": "토(04/11)",
     "sun": "일(04/12)"
   },
-  "today_key": "tue",
-  "today_label": "화(04/07)",
+  "today_key": "wed",
+  "today_label": "수(04/08)",
   "warnings": [],
   "sources": [
     {
@@ -484,7 +484,12 @@
               "category": "아침 (조식)",
               "items": [
                 {
-                  "name": "미운영",
+                  "name": "미운영.",
+                  "price": "",
+                  "time_code": "XXX"
+                },
+                {
+                  "name": "*",
                   "price": "",
                   "time_code": "XXX"
                 },
@@ -589,7 +594,13 @@
           "sat": [
             {
               "category": "아침 (조식)",
-              "items": []
+              "items": [
+                {
+                  "name": "4/11(토) 연세 가족 걷기 대회 행사로 나주곰탕 메뉴와 마이보글코너만 운영 됩니다.",
+                  "price": "",
+                  "time_code": "XXX"
+                }
+              ]
             },
             {
               "category": "조식자율바",
@@ -603,9 +614,9 @@
               "category": "동방식객 /모던키친",
               "items": [
                 {
-                  "name": "미운영.",
-                  "price": "*",
-                  "time_code": "XXX"
+                  "name": "나주곰탕",
+                  "price": "6,500원",
+                  "time_code": "XOX"
                 },
                 {
                   "name": "미운영.",
@@ -618,14 +629,14 @@
               "category": "공통메뉴",
               "items": [
                 {
-                  "name": "*",
+                  "name": "쌀밥",
                   "price": "*",
-                  "time_code": "XXX"
+                  "time_code": "XOX"
                 },
                 {
-                  "name": "*",
+                  "name": "어묵볶음",
                   "price": "*",
-                  "time_code": "XXX"
+                  "time_code": "XOX"
                 }
               ]
             },
@@ -633,14 +644,14 @@
               "category": "샐러드바",
               "items": [
                 {
-                  "name": "*",
+                  "name": "콩나물무침",
                   "price": "*",
-                  "time_code": "XXX"
+                  "time_code": "XOX"
                 },
                 {
-                  "name": "*",
+                  "name": "깍두기",
                   "price": "*",
-                  "time_code": "XXX"
+                  "time_code": "XOX"
                 },
                 {
                   "name": "*",
@@ -4464,16 +4475,6 @@
                 "미니새송이야채볶음",
                 "깍두기"
               ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "닭갈비볶음밥*지단채",
-                "미역두부장국",
-                "새우가스*타르S",
-                "깍두기"
-              ]
             }
           ],
           "wed": [
@@ -4533,24 +4534,6 @@
               ]
             },
             {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "냉콩국수",
-                "반미샌드위치",
-                "이색연근튀김*데리S",
-                "깍두기"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "오렌지"
-              ]
-            },
-            {
               "meal_time": "석식",
               "category": "한식",
               "items": [
@@ -4574,17 +4557,6 @@
                 "해물파전",
                 "탕평채",
                 "깍두기"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "소고기버섯야채죽",
-                "바지락살된장찌개",
-                "돈사태장조림",
-                "오징어젓무침",
-                "포기김치"
               ]
             },
             {

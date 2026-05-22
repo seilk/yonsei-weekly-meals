@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T10:01:54+09:00",
+  "generated_at": "2026-05-22T09:59:44+09:00",
   "week_labels": {
     "mon": "월(05/18)",
     "tue": "화(05/19)",
@@ -9,8 +9,8 @@
     "sat": "토(05/23)",
     "sun": "일(05/24)"
   },
-  "today_key": "thu",
-  "today_label": "목(05/21)",
+  "today_key": "fri",
+  "today_label": "금(05/22)",
   "warnings": [],
   "sources": [
     {
@@ -610,6 +610,11 @@
                 {
                   "name": "쇠고기영양탕",
                   "price": "5800",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "제육덮밥",
+                  "price": "6,200원",
                   "time_code": "XOX"
                 },
                 {

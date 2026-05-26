@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T10:01:44+09:00",
+  "generated_at": "2026-05-26T09:58:23+09:00",
   "week_labels": {
     "mon": "월(05/25)",
     "tue": "화(05/26)",
@@ -9,8 +9,8 @@
     "sat": "토(05/30)",
     "sun": "일(05/31)"
   },
-  "today_key": "mon",
-  "today_label": "월(05/25)",
+  "today_key": "tue",
+  "today_label": "화(05/26)",
   "warnings": [
     "Yonsei expected restaurant missing: 어울샘(한경관)"
   ],

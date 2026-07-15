@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:43:22+09:00",
+  "generated_at": "2026-07-15T11:41:41+09:00",
   "week_labels": {
     "mon": "월(07/13)",
     "tue": "화(07/14)",
@@ -9,8 +9,8 @@
     "sat": "토(07/18)",
     "sun": "일(07/19)"
   },
-  "today_key": "tue",
-  "today_label": "화(07/14)",
+  "today_key": "wed",
+  "today_label": "수(07/15)",
   "warnings": [],
   "sources": [
     {
@@ -295,7 +295,7 @@
               "category": "동방식객 /모던키친",
               "items": [
                 {
-                  "name": "베이컨김치볶음밥&계란후라이",
+                  "name": "갓김치볶음밥&계란후라이",
                   "price": "5000",
                   "time_code": "XOO"
                 },
@@ -1092,23 +1092,11 @@
           "fri": [
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "백미밥 얼큰콩나물국 백순대야채볶음 깻잎&들깨초장 어묵조림 포기김치",
-                  "price": "7000원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
-              "items": [
-                {
-                  "name": "돈육김치덮밥 미역국 옛날소세지전 포기김치 샐러드",
-                  "price": "7000원",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [

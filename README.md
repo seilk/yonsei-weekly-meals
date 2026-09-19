@@ -5,7 +5,7 @@
 <details>
 <summary>메타 정보 (Last updated / Sources)</summary>
 
-- Last updated (KST): **2026-09-18T12:50:40+09:00**
+- Last updated (KST): **2026-09-19T12:47:23+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
@@ -59,14 +59,14 @@
 
 ## 오늘 메뉴
 
-**오늘:** 금(09/18)
+**오늘:** 토(09/19)
 
 | 식당 | 메뉴 |
 |---|---|
-| 연세대학교 맛나샘 | 🌄 **아침 (조식)**: 김치왕만두전골 Kimchi & Large Dumpling Hot Pot (1,000원), 쌀밥<br>🌄 **조식자율바**: 쥐어채볶음, 숙주나물, 배추김치<br>**탕맛기픈**: 순두부찌개 Soft Tofu Stew (5,000원), 매운돈갈비찜 Spicy Braised Pork Ribs (6,000원)<br>**동방식객 /모던키친**: 차돌쌀국수&춘권 Rice Noodle Soup with Beef Brisket & Spring Rolls (6,500원), 햄김치덮밥&오버이지후라이 Ham & Kimchi Rice with Over-easy Egg (5,700원)<br>**공통메뉴**: 쌀밥, 감자채볶음<br>**샐러드바**: 콩조림, 배추김치, 우동국<br>**마이보글**: 라면 Ramen (5,700원), 해장라면 Bean Sprout& Dried Pollack Ramen (5,700원), 자파게티 Noodles with Black Soybean Sauce (5,700원), 불닭볶음면&치즈 Hot Chicken Flavor Ramen (5,700원), 폭탄주먹밥(햄) Rice Ball (Ham) (5,700원), 폭탄주먹밥(참치) Rice Ball (Tuna) (5,700원), 모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings) (5,700원), 즉석철판떡볶이 Stir-fried Rice Cake (5,700원), 닭강정 Sweet and Sour Chicken (5,700원), 공기밥 Rice (5,700원), 치즈사리 Add ( Cheese) (5,700원), 떡사리 Add ( Rice cake) (5,700원), 날계란사리 Add ( Raw Egg ) (5,700원) |
-| 연세대학교 한경관(어울샘) | ☀️ **1층 중식**: 무어묵국, 꽈리고추불고기, 어묵콩나물찜, 볶음짜장면, 가지나물, 콩자반, 게란후라이, 김치 숭늉 Radish and Fish Cake Soup, Stir-fried Bulgogi with Shishito Peppers, Braised Fish Cake and Bean Sprouts, Stir-fried Jajangmyeon, Seasoned Eggplant, Sweet Braised Black Soybeans, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea) (7,900원)<br>☀️ **2층 중식**: 국, 짜장덮밥, 곱창부대볶음, 닭고기로제파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Jajangmyeon Rice Bowl (Black Bean Paste Rice Bowl), Stir-fried Beef Intestines and Budae-jjigae Ingredients, Chicken Rosé Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea) (7,000원)<br>🌛 **2층 석식**: 국, 짜장덮밥, 대패삼겹두부조림, 닭고기로제파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Jajangmyeon Rice Bowl (Black Bean Paste Rice Bowl), Braised Tofu with Thinly Sliced Pork Belly, Chicken Rosé Pasta, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea) (7,000원) |
-| 세브란스 종합관 | 🌄 **조식 · 한식**: 팽이버섯계란국, 데리야끼닭조림, 김치전, 사각어묵볶음, 쌀밥, 깍두기, 숭늉<br>🌄 **조식 · 면요리**: 토핑라면, 후리가케주먹밥, 포기김치<br>☀️ **중식 · 한식**: 생선가스\*강정S, 육개장, 알감자조림, 건새우마늘쫑볶음, 잡곡밥, 깍두기/결명자차<br>☀️ **중식 · 양식**: 새싹참치비빔밥, 두부장국, 치즈계란말이\*케찹, 무말랭이장아찌, 배추김치/결명자차<br>☀️ **중식 · 일품**: 매콤쫄면, 두부장국, 참숯구이닭꼬치, 후리가케주먹밥, 배추김치, 결명자차<br>☀️ **중식 · 면요리**: 신라면, 연두부\*양념장, 쌀밥/배추김치, 결명자차<br>🌛 **석식 · 한식**: (뚝大)등뼈김치찌개, 산적구이\*머스타드S, 명엽채조림, 콩나물무침, 잡곡밥/깍두기, 결명자차<br>🌛 **석식 · 면요리**: 토핑라면, 연두부\*양념장, 쌀밥/배추김치, 결명자차 |
-| 세브란스 제중관 | 🌄 **조식 · 한식**: 고기튀김\*머스타드S, 시골장터국밥, 햄마늘쫑볶음, 오이지무침, 쌀밥, 숭늉, 깍두기<br>🌄 **조식 · 간편식**: 진라면\*내맘대로토핑, 김가루후리가케주먹밥, 단무지, 포기김치<br>☀️ **중식 · 한식**: (뚝)들깨순두부탕, 오징어어묵초무침, 시래기된장지짐, 간장깻잎지, 잡곡밥<br>☀️ **중식 · 양식**: 가마솥)샤브샤브버섯전골, 무말랭이무침, 참소스, 쌀밥, 포기김치<br>☀️ **중식 · 일품**: 토마토치즈제육덮밥, 설탕도너츠, 팽이장국, 단무지<br>☀️ **중식 · 면요리**: 즉석)돼지곰탕면\*다대기, 미니메밀전병, 김가루밥, 부추겉절이<br>☀️ **중식 · 자율코너**: 포기김치/미숫가루<br>🌛 **석식 · 한식**: 종합어묵국, or진라면, 뼈없는닭갈비, 떡잡채, 새콤무생채, 잡곡밥, 포기김치/미숫가루 |
+| 연세대학교 맛나샘 | **동방식객 /모던키친**: 나주곰탕 Naju Gomtang (Beef Bone Soup) (6,000원), 등심돈가스정식 Pork Loin Cutlet Set (6,200원)<br>**공통메뉴**: 쌀밥, 고추장멸치조림<br>**샐러드바**: 모듬채소절임, 배추김치, 우동국<br>**마이보글**: 라면 Ramen (6,200원), 해장라면 Bean Sprout& Dried Pollack Ramen (6,200원), 자파게티 Noodles with Black Soybean Sauce (6,200원), 불닭볶음면&치즈 Hot Chicken Flavor Ramen (6,200원), 폭탄주먹밥(햄) Rice Ball (Ham) (6,200원), 폭탄주먹밥(참치) Rice Ball (Tuna) (6,200원), 모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings) (6,200원), 즉석철판떡볶이 Stir-fried Rice Cake (6,200원), 닭강정 Sweet and Sour Chicken (6,200원), 공기밥 Rice (6,200원), 치즈사리 Add ( Cheese) (6,200원), 떡사리 Add ( Rice cake) (6,200원), 날계란사리 Add ( Raw Egg ) (6,200원) |
+| 연세대학교 한경관(어울샘) | - |
+| 세브란스 종합관 | 🌄 **조식 · 한식**: 참치김치찌개, 야채계란찜, 가지볶음, 마늘쫑무침, 쌀밥, 깍두기, 숭늉<br>☀️ **중식 · 한식**: 토마토치즈제육덮밥, 가쓰오장국, 건포도고구마샐러드, 오복채무침, 배추김치, 요구르트/숭늉 |
+| 세브란스 제중관 | 🌄 **조식 · 한식**: 순대야채볶음, 미역국, 메추리알곤약조림, 콩나물무침, 쌀밥, 깍두기<br>☀️ **중식 · 한식**: 고기듬뿍하이라이스, 계란파국, 야채비빔교자만두, 간장무말랭이지, 딸기요거트, 포기김치 |
 
 ## 요일별 보기
 

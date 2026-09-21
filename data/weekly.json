@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-20T13:03:26+09:00",
+  "generated_at": "2026-09-21T13:01:01+09:00",
   "week_labels": {
-    "mon": "월(09/14)",
-    "tue": "화(09/15)",
-    "wed": "수(09/16)",
-    "thu": "목(09/17)",
-    "fri": "금(09/18)",
-    "sat": "토(09/19)",
-    "sun": "일(09/20)"
+    "mon": "월(09/21)",
+    "tue": "화(09/22)",
+    "wed": "수(09/23)",
+    "thu": "목(09/24)",
+    "fri": "금(09/25)",
+    "sat": "토(09/26)",
+    "sun": "일(09/27)"
   },
-  "today_key": "sun",
-  "today_label": "일(09/20)",
+  "today_key": "mon",
+  "today_label": "월(09/21)",
   "warnings": [],
   "sources": [
     {
@@ -36,7 +36,7 @@
               "category": "아침 (조식)",
               "items": [
                 {
-                  "name": "콩나물해장국 Bean Sprout Hangover Soup",
+                  "name": "쇠고기미역국 Beef and Seaweed Soup",
                   "price": "1,000원",
                   "time_code": "OXX"
                 },
@@ -46,7 +46,7 @@
                   "time_code": "XXX"
                 },
                 {
-                  "name": "닭갈비덮밥 Spicy Stir‑Fried Chicken over Rice",
+                  "name": "돈육불고기덮밥 Pork Bulgogi with Rice",
                   "price": "1,000원",
                   "time_code": "OXX"
                 },
@@ -61,12 +61,12 @@
               "category": "조식자율바",
               "items": [
                 {
-                  "name": "알감자조림",
+                  "name": "그린샐러드&오리엔탈D",
                   "price": "",
                   "time_code": "OXX"
                 },
                 {
-                  "name": "미역초무침",
+                  "name": "도토리묵&양념장",
                   "price": "",
                   "time_code": "OXX"
                 },
@@ -81,12 +81,12 @@
               "category": "탕맛기픈",
               "items": [
                 {
-                  "name": "차돌된장찌개 Beef Brisket Soybean Paste Stew",
-                  "price": "6300",
+                  "name": "나주곰탕 Naju-Style Beef Soup",
+                  "price": "6000",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "돌솥날치알밥 Hot Stone Pot Flying Fish Roe Rice",
+                  "name": "비벼먹는돈육김치짜글이 Spicy Pork and Kimchi Stew with Rice",
                   "price": "5500",
                   "time_code": "XOO"
                 }
@@ -96,12 +96,12 @@
               "category": "동방식객 /모던키친",
               "items": [
                 {
-                  "name": "모듬가스정식 (치즈돈가스 & 생선커틀렛) Assorted Cutlet Set <br>(Cheese Tonkatsu & Fish Cutlet)",
-                  "price": "6900",
+                  "name": "마라우육탕면 & 요구르트 Malatang Beef Noodle Soup & Yogurt",
+                  "price": "6500",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "돈육생채소비빔밥 Pork and Fresh Vegetable Bibimbap",
+                  "name": "삼색소보로덮밥 Three-Color Soboro Rice Bowl",
                   "price": "5800",
                   "time_code": "XOO"
                 }
@@ -218,7 +218,7 @@
               "category": "아침 (조식)",
               "items": [
                 {
-                  "name": "사골옹심이떡만둣국 Beef Bone Soup with Ongshimi Tteok & Dumplings",
+                  "name": "부대찌개 Budae-jjigae (Spicy Sausage Stew)",
                   "price": "1,000원",
                   "time_code": "OXX"
                 },
@@ -228,7 +228,189 @@
                   "time_code": "XXX"
                 },
                 {
-                  "name": "소시지두부폭찹덮밥 Sausage & Tofu Cutlet Rice Bowl",
+                  "name": "장조림버터비빔밥 Butter Bibimbap with Soy-Braised Beef",
+                  "price": "1,000원",
+                  "time_code": "OXX"
+                },
+                {
+                  "name": "우동국",
+                  "price": "",
+                  "time_code": "XXX"
+                }
+              ]
+            },
+            {
+              "category": "조식자율바",
+              "items": [
+                {
+                  "name": "감자채볶음",
+                  "price": "",
+                  "time_code": "OXX"
+                },
+                {
+                  "name": "유채나물",
+                  "price": "",
+                  "time_code": "OXX"
+                },
+                {
+                  "name": "배추김치",
+                  "price": "",
+                  "time_code": "OXX"
+                }
+              ]
+            },
+            {
+              "category": "탕맛기픈",
+              "items": [
+                {
+                  "name": "쇠고기영양탕 Beef Nourishing Soup",
+                  "price": "5800",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "사골교자만둣국 Gyoza Dumpling Soup with Beef Bone Broth",
+                  "price": "5000",
+                  "time_code": "XOO"
+                }
+              ]
+            },
+            {
+              "category": "동방식객 /모던키친",
+              "items": [
+                {
+                  "name": "구로소유베이컨라멘&춘권 Guro Shoyu Bacon Ramen",
+                  "price": "6900",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "오야꼬동 Oyakodon (Japanese Chicken and Egg Rice Bowl)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                }
+              ]
+            },
+            {
+              "category": "공통메뉴",
+              "items": [
+                {
+                  "name": "쌀밥",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "콩나물무침",
+                  "price": "6300",
+                  "time_code": "XOO"
+                }
+              ]
+            },
+            {
+              "category": "샐러드바",
+              "items": [
+                {
+                  "name": "간장고추지",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "배추김치",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "우동국",
+                  "price": "6300",
+                  "time_code": "XOO"
+                }
+              ]
+            },
+            {
+              "category": "마이보글",
+              "items": [
+                {
+                  "name": "라면 Ramen",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "자파게티 Noodles with Black Soybean Sauce",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "즉석철판떡볶이 Stir-fried Rice Cake",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "닭강정 Sweet and Sour Chicken",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "공기밥 Rice",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "치즈사리 Add ( Cheese)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "떡사리 Add ( Rice cake)",
+                  "price": "6300",
+                  "time_code": "XOO"
+                },
+                {
+                  "name": "날계란사리 Add ( Raw Egg )",
+                  "price": "6300",
+                  "time_code": "XOO"
+                }
+              ]
+            }
+          ],
+          "wed": [
+            {
+              "category": "아침 (조식)",
+              "items": [
+                {
+                  "name": "경상도소고기뭇국&당면사리 Gyeongsang-style Beef Radish Soup with Glass Noodles",
+                  "price": "1,000원",
+                  "time_code": "OXX"
+                },
+                {
+                  "name": "쌀밥",
+                  "price": "",
+                  "time_code": "XXX"
+                },
+                {
+                  "name": "해물짬뽕덮밥 Spicy Seafood Jjamppong Rice Bowl",
                   "price": "1,000원",
                   "time_code": "OXX"
                 },
@@ -248,7 +430,7 @@
                   "time_code": "OXX"
                 },
                 {
-                  "name": "그린샐러드&오리엔탈D",
+                  "name": "무짠지채",
                   "price": "",
                   "time_code": "OXX"
                 },
@@ -263,195 +445,13 @@
               "category": "탕맛기픈",
               "items": [
                 {
-                  "name": "쇠고기뭇국&당면사리 Beef and Radish Soup with Glass Noodles",
-                  "price": "5000",
+                  "name": "닭곰탕&소면 Korean Chicken Soup with Thin Wheat Noodles",
+                  "price": "5300",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "돼지고기김치찌개 Pork and Kimchi Stew",
-                  "price": "5200",
-                  "time_code": "XOO"
-                }
-              ]
-            },
-            {
-              "category": "동방식객 /모던키친",
-              "items": [
-                {
-                  "name": "[동방식객]_하이디라오 마라훠궈 Haidilao Mala Hot Pot",
-                  "price": "7800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "등심돈가스정식 (밥,양상추샐러드포함) Pork Loin Cutlet Set",
-                  "price": "6200",
-                  "time_code": "XOO"
-                }
-              ]
-            },
-            {
-              "category": "공통메뉴",
-              "items": [
-                {
-                  "name": "쌀밥",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "콩나물무침",
-                  "price": "6200",
-                  "time_code": "XOO"
-                }
-              ]
-            },
-            {
-              "category": "샐러드바",
-              "items": [
-                {
-                  "name": "간장고추지",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "우동국",
-                  "price": "6200",
-                  "time_code": "XOO"
-                }
-              ]
-            },
-            {
-              "category": "마이보글",
-              "items": [
-                {
-                  "name": "라면 Ramen",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "공기밥 Rice",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "치즈사리 Add ( Cheese)",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "떡사리 Add ( Rice cake)",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "6200",
-                  "time_code": "XOO"
-                }
-              ]
-            }
-          ],
-          "wed": [
-            {
-              "category": "아침 (조식)",
-              "items": [
-                {
-                  "name": "해물짬뽕탕 Spicy Seafood Soup",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "쌀밥",
-                  "price": "",
-                  "time_code": "XXX"
-                },
-                {
-                  "name": "미트볼카레라이스 Meatball Curry Rice",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "우동국",
-                  "price": "",
-                  "time_code": "XXX"
-                }
-              ]
-            },
-            {
-              "category": "조식자율바",
-              "items": [
-                {
-                  "name": "청포묵김가루무침",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "간장궁채절임",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "",
-                  "time_code": "OXX"
-                }
-              ]
-            },
-            {
-              "category": "탕맛기픈",
-              "items": [
-                {
-                  "name": "부대찌개 Budae Jjigae (Korean Army Stew)",
-                  "price": "5500",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "닭매운찜 Spicy Braised Chicken",
-                  "price": "6000",
+                  "name": "돈가스김치나베 Pork Cutlet and Kimchi Hot Pot",
+                  "price": "6300",
                   "time_code": "XXX"
                 }
               ]
@@ -460,12 +460,12 @@
               "category": "동방식객 /모던키친",
               "items": [
                 {
-                  "name": "새우튀김우동& 핫도그*케찹 Udon with Fried Shrimp & Hot Dog",
+                  "name": "얼큰버섯칼국수 &미니계란야채죽 Spicy Mushroom Kalguksu with Mini Egg and Vegetable Porridge",
                   "price": "6500",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "치킨난반 Chicken Nanban",
+                  "name": "하이라이스 & 새우볼꼬치*케찹 Beef Curry Rice with Shrimp Ball Skewers",
                   "price": "5700",
                   "time_code": "XOO"
                 }
@@ -582,22 +582,7 @@
               "category": "아침 (조식)",
               "items": [
                 {
-                  "name": "육개장 Yukgaejang (Spicy Beef Soup)",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "쌀밥",
-                  "price": "",
-                  "time_code": "XXX"
-                },
-                {
-                  "name": "고기산적와사비마요덮밥 Beef Skewers with Wasabi Mayo over Rice",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "우동국",
+                  "name": "추석",
                   "price": "",
                   "time_code": "XXX"
                 }
@@ -605,330 +590,57 @@
             },
             {
               "category": "조식자율바",
-              "items": [
-                {
-                  "name": "환어묵곤약조림",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "그린샐러드&오리엔탈D",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "탕맛기픈",
-              "items": [
-                {
-                  "name": "순살감자탕 Boneless Pork Rib Soup",
-                  "price": "6200",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "사골떡만둣국 Beef Bone Soup with Rice Cakes & Dumplings",
-                  "price": "5300",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "동방식객 /모던키친",
-              "items": [
-                {
-                  "name": "잔치국수 & 소떡소떡*케찹 Noodles in Clear Broth& Sausage–Rice Cake Skewers",
-                  "price": "6500",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "제육덮밥 Spicy Pork over Rice",
-                  "price": "5800",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "공통메뉴",
-              "items": [
-                {
-                  "name": "쌀밥",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "미역줄기볶음",
-                  "price": "5800",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "샐러드바",
-              "items": [
-                {
-                  "name": "고춧잎무침",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "우동국",
-                  "price": "5800",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "마이보글",
-              "items": [
-                {
-                  "name": "라면 Ramen",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "공기밥 Rice",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "치즈사리 Add ( Cheese)",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "떡사리 Add ( Rice cake)",
-                  "price": "5800",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "5800",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "아침 (조식)",
-              "items": [
-                {
-                  "name": "김치왕만두전골 Kimchi & Large Dumpling Hot Pot",
-                  "price": "1,000원",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "쌀밥",
-                  "price": "",
-                  "time_code": "XXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "조식자율바",
-              "items": [
-                {
-                  "name": "쥐어채볶음",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "숙주나물",
-                  "price": "",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "탕맛기픈",
-              "items": [
-                {
-                  "name": "순두부찌개 Soft Tofu Stew",
-                  "price": "5000",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "매운돈갈비찜 Spicy Braised Pork Ribs",
-                  "price": "6000",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "동방식객 /모던키친",
-              "items": [
-                {
-                  "name": "차돌쌀국수&춘권 Rice Noodle Soup with Beef Brisket & Spring Rolls",
-                  "price": "6500",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "햄김치덮밥&오버이지후라이 Ham & Kimchi Rice with Over-easy Egg",
-                  "price": "5700",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "공통메뉴",
-              "items": [
-                {
-                  "name": "쌀밥",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "감자채볶음",
-                  "price": "5700",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "샐러드바",
-              "items": [
-                {
-                  "name": "콩조림",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "우동국",
-                  "price": "5700",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "마이보글",
-              "items": [
-                {
-                  "name": "라면 Ramen",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "공기밥 Rice",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "치즈사리 Add ( Cheese)",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "떡사리 Add ( Rice cake)",
-                  "price": "5700",
-                  "time_code": "XOO"
-                },
-                {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "5700",
-                  "time_code": "XOO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -946,123 +658,19 @@
             },
             {
               "category": "동방식객 /모던키친",
-              "items": [
-                {
-                  "name": "나주곰탕 Naju Gomtang (Beef Bone Soup)",
-                  "price": "6000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "등심돈가스정식 Pork Loin Cutlet Set",
-                  "price": "6200",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "공통메뉴",
-              "items": [
-                {
-                  "name": "쌀밥",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "고추장멸치조림",
-                  "price": "6200",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "샐러드바",
-              "items": [
-                {
-                  "name": "모듬채소절임",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "배추김치",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "우동국",
-                  "price": "6200",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "마이보글",
-              "items": [
-                {
-                  "name": "라면 Ramen",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "공기밥 Rice",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "치즈사리 Add ( Cheese)",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "떡사리 Add ( Rice cake)",
-                  "price": "6200",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "6200",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             }
           ],
           "sun": [
@@ -1109,7 +717,7 @@
               "category": "1층 중식",
               "items": [
                 {
-                  "name": "김치콩나물국, 소고기버섯카레, 대패삼겹두부조림, 돈가스, 어묵우엉채볶음, 콩자반, 계란후라이, 김치, 숭늉 Kimchi & Bean Sprout Soup, Beef and Mushroom Curry, Braised Tofu with Thinly Sliced Pork Belly, Pork Cutlet, Stir-fried Fish Cake and Shredded Burdock Root, Sweet Braised Black Soybeans, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "김치콩나물국, 버섯우엉채불고기, 무우두부조림, 떡볶이, 가지나물, 김/간장, 계란후라이, 김치/숭늉 Kimchi & Kongnamul Guk (Kimchi and Soybean Sprout Soup), Mushroom & Burdock Bulgogi, Braised Radish & Tofu, Tteokbokki (Spicy Rice Cakes), Seasoned Eggplant Namul, Dried Seaweed & Soy Sauce, Fried Egg, Kimchi & Sungnyung (Roasted Rice Water)",
                   "price": "7900",
                   "time_code": "XOX"
                 }
@@ -1119,7 +727,7 @@
               "category": "2층 중식",
               "items": [
                 {
-                  "name": "국, 하이라이스덮밥, 소세지어묵야채볶음, 탄탄파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, High-Rice Bowl (Japanese-style Curry Rice Bowl), Stir-fried Sausage, Fish Cake, and Vegetables, Dan Dan Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 카레덮밥, 대패삼겹두부조림, 날치알크림파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Curry Rice Bowl, Thinly Sliced Samgyeopsal & Tofu Braise, Flying Fish Roe Cream Pasta, Spicy Stir-Fried Pork Bulgogi, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XOX"
                 }
@@ -1129,7 +737,7 @@
               "category": "2층 석식",
               "items": [
                 {
-                  "name": "국, 하이라이스덮밥, 대패삼겹두부조림, 제육고추장크림파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, High-Rice Bowl (Japanese-style Curry Rice Bowl), Braised Tofu with Thinly Sliced Pork Belly, Spicy Pork Gochujang Cream Pasta, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 카레덮밥, 소세지어묵야채볶음, 해산물오일파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Curry Rice Bowl, Stir-Fried Sausage, Fish Cake & Vegetables, Seafood Oil Pasta, Spicy Pork Bulgogi, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XXO"
                 }
@@ -1141,7 +749,7 @@
               "category": "1층 중식",
               "items": [
                 {
-                  "name": "두부무된장국, 곤드레솥밥, 바싹제육볶음, 비빔국수, 콩나물무침, 멸치볶음, 계란후라이, 김치, 숭늉 Doofu-Moe-Doenjang-guk (Tofu and Radish Soybean Paste Soup), Gondre-sotbap (Gondre Herb Rice in a Stone Pot), Crispy Stir-fried Pork, Bibim-guksu (Spicy Mixed Noodles), Seasoned Bean Sprouts, Stir-fried Anchovies, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "무어묵국, 닭볶음탕, 두부샐러드, 김치비빔국수, 오이샐러드, 콩자반, 계란후라이, 김치/숭늉 Mu-eomuk Guk (Radish and Fish Cake Soup), Dakbokkeumtang (Spicy Braised Chicken), Tofu Salad, Kimchi Bibim Guksu (Spicy Mixed Noodles), Cucumber Salad, Kongjaban (Braised Soybeans), Fried Egg, Kimchi & Sungnyung (Roasted Rice Water)",
                   "price": "7900",
                   "time_code": "XOX"
                 }
@@ -1151,7 +759,7 @@
               "category": "2층 중식",
               "items": [
                 {
-                  "name": "국, 마파두부덮밥, 모듬튀김, 제육고추장크림파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Mapo Tofu Rice Bowl, Assorted Tempura/Fried Fritters, Spicy Pork Gochujang Cream Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 콘스프, 닭다리살김치볶음, 탄탄파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Corn Soup, Chicken Thigh & Kimchi Stir-Fry, Tantan Pasta, Spicy Pork Bulgogi, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XOX"
                 }
@@ -1161,7 +769,7 @@
               "category": "2층 석식",
               "items": [
                 {
-                  "name": "국, 마파두부덮밥, 닭다리살김치볶음, 얼큰볶음대파라면, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Mapo Tofu Rice Bowl, Stir-fried Chicken Thigh with Kimchi, Spicy Stir-fried Green Onion Ramen, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 콘스프, 대패삼겹두부조림, 제육고추장크림파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Corn Soup, Thinly Sliced Samgyeopsal & Tofu Braise, Spicy Gochujang Cream Pasta with Pork, Spicy Pork Bulgogi, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XXO"
                 }
@@ -1173,7 +781,7 @@
               "category": "1층 중식",
               "items": [
                 {
-                  "name": "감자탕, 동그랑땡전, 야채묵무침, 오이지무침, 콩자반, 계란후라이, 김치, 숭늉 Gamjatang (Pork Bone Stew), Donggeurangttaeng (Korean Meat Pancakes), Seasoned Jelly and Vegetables, Seasoned Pickled Cucumber, Sweet Braised Black Soybeans, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea",
+                  "name": "미역국, 열무비빔밥, 바싹제육볶음, 온모밀, 어묵볶음, 멸치볶음, 계란후라이, 김치, 숭늉 Miyeokguk (Seaweed Soup), Yeolmu Bibimbap (Young Summer Radish Bibimbap), Crispy Jeyuk Bokkeum (Spicy Stir-fried Pork), On-memil (Warm Buckwheat Noodles), Stir-fried Fish Cakes, Stir-fried Anchovies, Fried Egg, Kimchi & Sungnyung (Roasted Rice Water)",
                   "price": "7900",
                   "time_code": "XOX"
                 }
@@ -1183,7 +791,7 @@
               "category": "2층 중식",
               "items": [
                 {
-                  "name": "국, 게살스프, 대패삼겹두부조림, 아마트리치아나파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Crab Meat Soup, Braised Tofu with Thinly Sliced Pork Belly, Amatriciana Pasta, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 짜장덮밥, 소세지어묵야채볶음, 해산물오일파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Jajang Rice Bowl, Stir-Fried Sausage, Fish Cake & Vegetables, Seafood Oil Pasta, Spicy Pork Bulgogi, Ham, Mushroom & Vegetable Hot Pot Rice, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XOX"
                 }
@@ -1193,7 +801,7 @@
               "category": "2층 석식",
               "items": [
                 {
-                  "name": "국, 게살스프, 곱창부대볶음, 탄탄파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Crab Meat Soup, Stir-fried Beef Intestines and Budae-jjigae Ingredients, Dan Dan Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
+                  "name": "국, 짜장덮밥, 모듬튀김, 얼큰볶음대파라면, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, Jajang Rice Bowl, Assorted Fried Fritters, Spicy Green Onion Stir-Fried Ramen, Spicy Pork Bulgogi, Ham, Mushroom & Vegetable Hot Pot Rice, Salad & Ssam Vegetables, Fried Egg, Stir-Fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Roasted Rice Water)",
                   "price": "7000",
                   "time_code": "XXO"
                 }
@@ -1203,65 +811,29 @@
           "thu": [
             {
               "category": "1층 중식",
-              "items": [
-                {
-                  "name": "미역국, 삼겹김치찜, 온두부양념장, 온모밀, 볼어묵곤약조림, 멸치볶음, 계란후라이, 김치, 숭늉 Seaweed Soup, Braised Kimchi with Pork Belly, Warm Tofu with Seasoned Soy Sauce, Warm Buckwheat Soba, Braised Fish Cakes and Konjac, Stir-fried Anchovies, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7900",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "2층 중식",
-              "items": [
-                {
-                  "name": "국, 카레덮밥, 닭다리살김치볶음, 볶음짜장면, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Curry Rice Bowl, Stir-fried Chicken Thigh with Kimchi, Stir-fried Jajangmyeon, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "2층 석식",
-              "items": [
-                {
-                  "name": "국, 카레덮밥, 모듬튀김, 제육고추장크림파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Curry Rice Bowl, Assorted Tempura/Fried Fritters, Spicy Pork Gochujang Cream Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7000",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "1층 중식",
-              "items": [
-                {
-                  "name": "무어묵국, 꽈리고추불고기, 어묵콩나물찜, 볶음짜장면, 가지나물, 콩자반, 게란후라이, 김치 숭늉 Radish and Fish Cake Soup, Stir-fried Bulgogi with Shishito Peppers, Braised Fish Cake and Bean Sprouts, Stir-fried Jajangmyeon, Seasoned Eggplant, Sweet Braised Black Soybeans, Fried Egg, Kimchi, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7900",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "2층 중식",
-              "items": [
-                {
-                  "name": "국, 짜장덮밥, 곱창부대볶음, 닭고기로제파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Jajangmyeon Rice Bowl (Black Bean Paste Rice Bowl), Stir-fried Beef Intestines and Budae-jjigae Ingredients, Chicken Rosé Pasta, Stir-fried Spicy Pork Bulgogi, Mushroom and Ham Vegetable Stone Pot Rice, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "2층 석식",
-              "items": [
-                {
-                  "name": "국, 짜장덮밥, 대패삼겹두부조림, 닭고기로제파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 숙주볶음, 김치, 단무지무침, 숭늉 Soup, Jajangmyeon Rice Bowl (Black Bean Paste Rice Bowl), Braised Tofu with Thinly Sliced Pork Belly, Chicken Rosé Pasta, Stir-fried Spicy Pork Bulgogi, Salad / Sliced Cabbage and Lettuce for Wraps, Fried Egg, Stir-fried Mung Bean Sprouts, Kimchi, Seasoned Pickled Radish, Sungnyung (Traditional Scorched Rice Tea)",
-                  "price": "7000",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -1304,187 +876,245 @@
           "mon": [
             {
               "category": "오늘의뷔페",
-              "items": []
+              "items": [
+                {
+                  "name": "해물볶음짬뽕 Stir-fried Spicy Seafood Noodles 탕수육 Sweet and Sour Pork 해파리냉채 Chilled Jellyfish Salad 단무지 Pickled Radish 우동국 Udon Soup 샐러드&요거트드레싱 Salad&Yogurt dressing 쌀밥 Boiled Rice 배추김치 Kimchi",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "세트메뉴",
-              "items": []
+              "items": [
+                {
+                  "name": "뷔페&보쌈 Buffet&Boiled Pork Belly",
+                  "price": "13000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "Xingfu China",
-              "items": []
+              "items": [
+                {
+                  "name": "자장면 Jajangmyeon",
+                  "price": "4500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "불자장면 Spicy Jajangmyeon",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "짬뽕 Jjambbon",
+                  "price": "5500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "우육마라짬뽕 Spicy Mala Beef Jjamppong",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "베이컨갈릭볶음밥 Bacon Garlic Fried Rice",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "중화덮밥 Spicy Chinese rice bowl",
+                  "price": "6300",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "탕수육 Tangsuyuk",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "수제깐풍기 Handmade spicy fried chicken",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "군만두 Fried dumplings",
+                  "price": "2500",
+                  "time_code": "XOX"
+                }
+              ]
             }
           ],
           "tue": [
             {
               "category": "오늘의뷔페",
-              "items": []
+              "items": [
+                {
+                  "name": "알떡갈비맛함박스테이크 Rice cake Hambak Steak 알리오스파게티 Aglio e Olio Spaghetti 미니츄러스 Mini churros 오이피클 Cucumber pickles 미소장국 Miso soup 샐러드*키위드레싱 Salad&Kiwi Dressing 쌀밥 Boiled Rice 배추김치 Kimchi",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "세트메뉴",
-              "items": []
+              "items": [
+                {
+                  "name": "뷔페&보쌈 Buffet&Boiled Pork Belly",
+                  "price": "13000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "Xingfu China",
-              "items": []
+              "items": [
+                {
+                  "name": "자장면 Jajangmyeon",
+                  "price": "4500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "불자장면 Spicy Jajangmyeon",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "짬뽕 Jjambbon",
+                  "price": "5500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "우육마라짬뽕 Spicy Mala Beef Jjamppong",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "베이컨갈릭볶음밥 Bacon Garlic Fried Rice",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "중화덮밥 Spicy Chinese rice bowl",
+                  "price": "6300",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "탕수육 Tangsuyuk",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "수제깐풍기 Handmade spicy fried chicken",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "군만두 Fried dumplings",
+                  "price": "2500",
+                  "time_code": "XOX"
+                }
+              ]
             }
           ],
           "wed": [
             {
               "category": "오늘의뷔페",
-              "items": []
+              "items": [
+                {
+                  "name": "몽골리안치킨볶음밥 Mongolian chicken fried rice 오징어가스 Squid cutlet 가래떡떡볶이 Tteokboki 단무지 Pickled Radish 우동국 Udon Soup 샐러드&파인드레싱 Salad&Pineapple Dressing 배추김치 Kimchi",
+                  "price": "7000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "세트메뉴",
-              "items": []
+              "items": [
+                {
+                  "name": "뷔페&고구마맛탕 Buffet &Candied Sweet Potatoes",
+                  "price": "9000",
+                  "time_code": "XOX"
+                }
+              ]
             },
             {
               "category": "Xingfu China",
-              "items": []
+              "items": [
+                {
+                  "name": "자장면 Jajangmyeon",
+                  "price": "4500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "불자장면 Spicy Jajangmyeon",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "짬뽕 Jjambbon",
+                  "price": "5500",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "우육마라짬뽕 Spicy Mala Beef Jjamppong",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "베이컨갈릭볶음밥 Bacon Garlic Fried Rice",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "중화덮밥 Spicy Chinese rice bowl",
+                  "price": "6300",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "탕수육 Tangsuyuk",
+                  "price": "5000",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "수제깐풍기 Handmade spicy fried chicken",
+                  "price": "6900",
+                  "time_code": "XOX"
+                },
+                {
+                  "name": "군만두 Fried dumplings",
+                  "price": "2500",
+                  "time_code": "XOX"
+                }
+              ]
             }
           ],
           "thu": [
             {
               "category": "오늘의뷔페",
-              "items": [
-                {
-                  "name": "돈가스 Pork Cutlet 로제떡볶이 Rosé Tteokbokki 순대찜 Korean Sausage 쫄면야채무침 Spicy Springy Noodles with Vegetables 우동국 Udon Soup 샐러드&요거트드레싱 Salad&Yogurt dressing 쌀밥 Boiled Rice 배추김치 Kimchi",
-                  "price": "7000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "세트메뉴",
-              "items": [
-                {
-                  "name": "뷔페&계란말이 Buffet&Omelet Roll",
-                  "price": "10000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "Xingfu China",
-              "items": [
-                {
-                  "name": "자장면 Jajangmyeon",
-                  "price": "4500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "불자장면 Spicy Jajangmyeon",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "짬뽕 Jjambbon",
-                  "price": "5500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "우육마라짬뽕 Spicy Mala Beef Jjamppong",
-                  "price": "6900",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "베이컨갈릭볶음밥 Bacon Garlic Fried Rice",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "중화덮밥 Spicy Chinese rice bowl",
-                  "price": "6300",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "탕수육 Tangsuyuk",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "수제깐풍기 Handmade spicy fried chicken",
-                  "price": "6900",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "군만두 Fried dumplings",
-                  "price": "2500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "오늘의뷔페",
-              "items": [
-                {
-                  "name": "간장돼지불고기 Soy Sauce Pork Bulgogi 두부양념조림 Stewed Tofu 김치비빔국수 Spicy Noodles with Kimchi 미소장국 Miso soup 샐러드&오리엔탈드레싱 Salad&Oriental Dressin 쌀밥 Boiled Rice 배추김치 Kimchi",
-                  "price": "7000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "세트메뉴",
-              "items": [
-                {
-                  "name": "뷔페&계란말이 Buffet&Omelet Roll",
-                  "price": "10000",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "Xingfu China",
-              "items": [
-                {
-                  "name": "자장면 Jajangmyeon",
-                  "price": "4500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "불자장면 Spicy Jajangmyeon",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "짬뽕 Jjambbon",
-                  "price": "5500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "우육마라짬뽕 Spicy Mala Beef Jjamppong",
-                  "price": "6900",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "베이컨갈릭볶음밥 Bacon Garlic Fried Rice",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "중화덮밥 Spicy Chinese rice bowl",
-                  "price": "6300",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "탕수육 Tangsuyuk",
-                  "price": "5000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "수제깐풍기 Handmade spicy fried chicken",
-                  "price": "6900",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "군만두 Fried dumplings",
-                  "price": "2500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -1529,7 +1159,7 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "훈제오리블랙빈볶음밥&음료(주스,두유 택1) 토스트&딸기잼 양파링튀김*케찹 삶은계란 모둠샐러드*드레싱 배추김치",
+                  "name": "햄채소볶음밥&음료(주스,두유 택1) 토스트&딸기잼 꼬마돈가스*케찹 삶은계란 모둠샐러드*드레싱 배추김치",
                   "price": "3,000원",
                   "time_code": "OXX"
                 }
@@ -1539,7 +1169,7 @@
               "category": "중식(일반식)",
               "items": [
                 {
-                  "name": "(뚝)치즈쫄면순두부찌개 쌀밥 치킨너겟*허니머스타드 사각어묵볶음 건파래볶음 깍두기",
+                  "name": "[CJ제일제당X웰스토리 콜라보] 언양식불고기 참기름비빔밥 근대된장국 새송이버섯볶음 오이생채 배추김치",
                   "price": "6,500원",
                   "time_code": "XOX"
                 }
@@ -1549,7 +1179,7 @@
               "category": "중식(특식)",
               "items": [
                 {
-                  "name": "닭칼국수 모둠채소전 멸치고추양념밥 배추김치",
+                  "name": "봉골레파스타 마늘바게트 제로콜라 모둠샐러드*드레싱 오이피클",
                   "price": "7,500원",
                   "time_code": "XOX"
                 }
@@ -1559,7 +1189,7 @@
               "category": "석식",
               "items": [
                 {
-                  "name": "부대덮밥 우동국 오징어가스*타르타르 단무지 츄러스",
+                  "name": "대패삼겹김치볶음밥&계란후라이 어묵국 크림치즈볼 간장궁채절임 단무지",
                   "price": "6,500원",
                   "time_code": "XXO"
                 }
@@ -1571,7 +1201,7 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "사골우거지탕 쌀밥 쌀떡고기산적조림 마늘쫑지 모둠샐러드*드레싱 깍두기",
+                  "name": "숙주쇠고기해장국 쌀밥 메추리알환어묵조림 치커리생채 모둠샐러드*드레싱 깍두기",
                   "price": "3,000원",
                   "time_code": "OXX"
                 }
@@ -1581,7 +1211,7 @@
               "category": "중식(일반식)",
               "items": [
                 {
-                  "name": "등심돈가스*소스 쌀밥 크림스프 슈스트링감자튀김 푸실리샐러드 오이피클",
+                  "name": "[추석특식] LA돼지갈비찜 쌀밥 토란국 모둠전(부추전.김치전) 배추김치 찹쌀과자",
                   "price": "6,500원",
                   "time_code": "XOX"
                 }
@@ -1589,19 +1219,13 @@
             },
             {
               "category": "중식(특식)",
-              "items": [
-                {
-                  "name": "투움바파스타 브라운브레드*버터 오이피클",
-                  "price": "7,500원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
               "items": [
                 {
-                  "name": "[CJ제일제당X웰스토리 콜라보] 방앗간 가래떡볶이 김가루양념밥 핫도그 단무지 쿨피스",
+                  "name": "잡채덮밥 계란팟국 돼지고기땅콩강정 게맛살겨자냉채 단무지 딤섬(미니찐빵)",
                   "price": "6,500원",
                   "time_code": "XXO"
                 }
@@ -1613,7 +1237,7 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "김가루후리가케양념밥 &음료(주스,두유 택1) 모닝빵&딸기잼 두부강정 모둠샐러드*드레싱 오이피클 떠먹는요구르트",
+                  "name": "김가루후리가케양념밥 &음료(주스,두유 택1) 모닝빵&딸기잼 떠먹는소떡소떡 모둠샐러드*드레싱 오이피클 떠먹는요구르트",
                   "price": "3,000원",
                   "time_code": "OXX"
                 }
@@ -1623,7 +1247,7 @@
               "category": "중식(일반식)",
               "items": [
                 {
-                  "name": "(뚝)닭갈비 쌀밥 고구마맛탕 숙주나물 와사비무생채 배추김치",
+                  "name": "(뚝)닭볶음탕*당면사리 쌀밥 감자떡완자조림 콩나물무침 얼갈이생채 깍두기",
                   "price": "6,500원",
                   "time_code": "XOX"
                 }
@@ -1633,7 +1257,7 @@
               "category": "중식(특식)",
               "items": [
                 {
-                  "name": "[글로벌픽] 테라오카-아보카도간장계란밥 닭강정 유부맑은국 배추김치",
+                  "name": "토마토치킨퀘사디아 아보카도펜네샐러드 오이피클",
                   "price": "7,500원",
                   "time_code": "XOX"
                 }
@@ -1643,7 +1267,7 @@
               "category": "석식",
               "items": [
                 {
-                  "name": "냉메밀국수 후리가케양념밥 미니새우튀김*머스타드 양배추샐러드*드레싱 단무지",
+                  "name": "(뚝)가츠동 쌀밥 타코야끼 양배추샐러드*드레싱 배추김치 요구르트",
                   "price": "6,500원",
                   "time_code": "XXO"
                 }
@@ -1653,85 +1277,37 @@
           "thu": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "중화식덮밥 계란팟국 오징어볼튀김*칠리소스 모둠샐러드*드레싱 배추김치",
-                  "price": "3,000원",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식(일반식)",
-              "items": [
-                {
-                  "name": "김치잔치국수 셀프김쌈밥*참치소스 만두찜*초간장 깍두기",
-                  "price": "6,500원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식(특식)",
-              "items": [
-                {
-                  "name": "팟타이 사모사튀김 단무지 요구르트",
-                  "price": "7,500원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
-              "items": [
-                {
-                  "name": "(뚝)차돌버섯된장찌개 쌀밥 해물완자튀김*케찹 오이맛고추무침 콩자반 배추김치",
-                  "price": "6,500원",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "시리얼&우유 모닝빵&딸기잼 크림스프 스크램블에그 모둠샐러드*드레싱 과일(바나나)",
-                  "price": "3,000원",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식(일반식)",
-              "items": [
-                {
-                  "name": "계란볶음밥&자장소스 짬뽕국 탕수육 짜사이채무침 배추김치",
-                  "price": "6,500원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식(특식)",
-              "items": [
-                {
-                  "name": "NEW (뚝)우삼겹숙주탕*참나물소스 숯불갈비향소시지볶음 쌀밥 배추김치",
-                  "price": "7,500원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
-              "items": [
-                {
-                  "name": "제육덮밥 유채된장국 감자고로케*케찹 옥수수조랭이떡샐러드 배추김치",
-                  "price": "6,500원",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -1784,7 +1360,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "백미밥 우삼겹된장찌개 너비아니구이&파채 얼갈이된장나물 건파래볶음 포기김치",
+                  "name": "백미밥 소고기육개장 꼬마돈까스&케찹 매콤두부조림 해초샐러드 포기김치",
                   "price": "7000원",
                   "time_code": "XOX"
                 }
@@ -1794,7 +1370,7 @@
               "category": "석식",
               "items": [
                 {
-                  "name": "하이라이스 우동국 해물볶음우동 포기김치 샐러드",
+                  "name": "카레라이스 우동국 야채고로케 포기김치 샐러드",
                   "price": "7000원",
                   "time_code": "XXO"
                 }
@@ -1806,7 +1382,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "백미밥 감자수제비국 제육볶음 콩나물무침 볼어묵조림 포기김치",
+                  "name": "백미밥 시래기된장국 닭볶음탕 간장어묵조림 천사채샐러드 포기김치",
                   "price": "7000원",
                   "time_code": "XOX"
                 }
@@ -1816,7 +1392,7 @@
               "category": "석식",
               "items": [
                 {
-                  "name": "잡채밥 유부장국 비엔나소세지볶음 포기김치 샐러드",
+                  "name": "김치볶음밥&후라이 유부장국 동그랑땡전 포기김치 샐러드",
                   "price": "7000원",
                   "time_code": "XXO"
                 }
@@ -1828,7 +1404,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "백미밥 참치김치찌개 치킨까스&소스 오이부추무침 도라지나물 포기김치",
+                  "name": "백미밥 옛날소세지전&케찹 도라지오이무침 도시락김 포기김치",
                   "price": "7000원",
                   "time_code": "XOX"
                 }
@@ -1838,7 +1414,7 @@
               "category": "석식",
               "items": [
                 {
-                  "name": "닭다리데리야끼덮밥 팽이장국 두부강정 포기김치 샐러드",
+                  "name": "소고기콩나물밥&양념장 팽이장국 오징어초무침 포기김치 샐러드",
                   "price": "7000원",
                   "time_code": "XXO"
                 }
@@ -1848,45 +1424,21 @@
           "thu": [
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "짜장면 물만두계란국 탕수육 단무지 요구르트",
-                  "price": "7000원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
-              "items": [
-                {
-                  "name": "제육덮밥 근대된장국 도토리묵무침 포기김치 샐러드",
-                  "price": "7000원",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "백미밥 비지찌개 오징어떡찜 숙주나물 미역줄기볶음 포기김치",
-                  "price": "7000원",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
-              "items": [
-                {
-                  "name": "알새우볶음밥 유부장국 양념팝콘치킨 포기김치 샐러드",
-                  "price": "7000원",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -2098,39 +1650,19 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "[탕맛기픈]뚝)뚝)황생가사골떡만둣국 Beef Bone Soup with sliced rice cake and Mandu",
-                  "price": "6500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[모던키친]등심돈가스 Pork Cutlet",
-                  "price": "6800",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[아시안픽스]닭갈비덮밥 &계란후라이 Rice topped with spicy Chicken",
+                  "name": "[탕맛기픈]뚝)비벼먹는 햄짜글이 ham and Kimchi Stew",
                   "price": "6000",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "[싱푸차이나]마제소바 Maze Soba",
+                  "name": "[모던키친]베트남소고기쌀국수 Rice Noodles with Beef",
                   "price": "6500",
                   "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]닭곰탕&소면사리 Chicken Soup",
-                  "price": "5500",
-                  "time_code": "XXO"
                 },
                 {
-                  "name": "[아시안픽스]차슈덮밥 Rice topped with steamed pork",
+                  "name": "[아시안픽스]치킨마요덮밥 Rice topped with Chicken and Mayo",
                   "price": "6500",
-                  "time_code": "XXO"
+                  "time_code": "XOX"
                 }
               ]
             }
@@ -2315,39 +1847,19 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "[탕맛기픈]뚝)쇠고기육개장 &당면사리 Spicy Beef Soup",
+                  "name": "[탕맛기픈]뚝)순두부찌개&계란1개 Spicy Soft Tofu Hot Pot",
                   "price": "6000",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "[모던키친]눈꽃치즈함박&생선가스 Hamburg steak with Cheese",
-                  "price": "6800",
+                  "name": "[모던키친][프리미엄 메뉴] mini수육&들기름막국수 Steamed pork",
+                  "price": "8000",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "[아시안픽스]삼겹살버섯간장구이덮밥 Rice topped with Soy Sauced Pork",
-                  "price": "6500",
+                  "name": "[아시안픽스][프리미엄 메뉴] mini수육&들기름막국수 Steamed pork",
+                  "price": "8000",
                   "time_code": "XOX"
-                },
-                {
-                  "name": "[싱푸차이나]돈코츠라멘 Donkotsu Ramen",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]냉메밀국수 Cold buckwheat Noodles & mini돈가스 Pork Cutlet",
-                  "price": "6800",
-                  "time_code": "XXO"
-                },
-                {
-                  "name": "[아시안픽스]런천미트김치비빔밥 Ham kimchi bibimbap",
-                  "price": "6000",
-                  "time_code": "XXO"
                 }
               ]
             }
@@ -2532,39 +2044,14 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "[탕맛기픈]뚝)돈육고추장불고기 Stir-fried Pork with Korean Chili Paste",
-                  "price": "6000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[모던키친]알리오올리오파스타 Aglio e Olio",
+                  "name": "[탕맛기픈][프로모션메뉴] 육전국밥 Pork Pancake Rice",
                   "price": "6500",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "[아시안픽스]닭강정오므라이스 Sweet and Sour Chicken Omelet",
-                  "price": "6500",
+                  "name": "[모던키친]통등심돈가스&떡볶이 Pork Cutlet",
+                  "price": "6800",
                   "time_code": "XOX"
-                },
-                {
-                  "name": "[싱푸차이나]분짜 Bun Cha",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]순댓국 Korean Sausage Soup",
-                  "price": "6000",
-                  "time_code": "XXO"
-                },
-                {
-                  "name": "[아시안픽스]태국식갈릭라이스 Garlic Stir-Fried Rice",
-                  "price": "6000",
-                  "time_code": "XXO"
                 }
               ]
             }
@@ -2572,425 +2059,37 @@
           "thu": [
             {
               "category": "셀프라면",
-              "items": [
-                {
-                  "name": "사리 (Egg & cheese)",
-                  "price": "500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "공기밥 Steamed rice",
-                  "price": "800",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "신라면 Sin Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "안성탕면 Ansung Tangmyeon",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "삼양라면 Samyang Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "진라면(매운맛) Jin Ramen(Spicy)",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "진라면(순한맛) Jin Ramen(mild flavor)",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "오징어짬뽕 Squid Jjamppong Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "너구리라면 Neoguri Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "참깨라면 Sesame Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "틈새라면빨계떡 Red spicy rice cake for a snack",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "나가사끼짬뽕라면 Nagasaki Jjamppong Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "짜파게티 Jajang ramen",
-                  "price": "3000",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "까르보불닭볶음면(치즈)Carbo Spicy Chicken Stir-Fried Noodles",
-                  "price": "3700",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "불닭볶음면(치즈) Fire Chicken Stir-Fried Noodles",
-                  "price": "3700",
-                  "time_code": "OOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "스낵",
-              "items": [
-                {
-                  "name": "추억의도시락Lunchbox of Memories",
-                  "price": "4300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "꼬치어묵(2개) Skewered fish cake",
-                  "price": "1500",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "소떡소떡Sausage rice cake skewer",
-                  "price": "2000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "떡볶이 Tteokbokki",
-                  "price": "3000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "모둠튀김 Assorted fried food",
-                  "price": "3000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "닭강정 Fried chicken bites",
-                  "price": "5000",
-                  "time_code": "OOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "간편식",
-              "items": [
-                {
-                  "name": "유부초밥 Inari sushi",
-                  "price": "3300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "토핑유부초밥 Topping Inari Sushi",
-                  "price": "4500",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "훈제란/구운란 반반 Roasted egg&Soft-boiled egg",
-                  "price": "2000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "샌드위치 Sandwich",
-                  "price": "4300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "랩샐러드 Wrap salad",
-                  "price": "4800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "오늘의요거트 Yogurt",
-                  "price": "3900",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "샐러드 Salad",
-                  "price": "5700",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "오레오즈컵시리얼&우유(두유) SET cup cereal",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "아몬드후레이크컵시리얼&우유(두유) SET cup cereal",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "선식&우유(두유) SET meal replacement powder",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "프로틴&우유(두유) SET Protein",
-                  "price": "3000",
-                  "time_code": "OOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "[탕맛기픈]뚝)돈육김치찌개 Kimchi Stew with Pork",
-                  "price": "6000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[모던키친]장어덮밥 Rice Topped with Eel",
-                  "price": "8000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[아시안픽스]장어덮밥 Rice Topped with Eel",
-                  "price": "8000",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[싱푸차이나]자장면 Noodles with Black Soybean Sauce",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]잔치국수 Korean Noodle Soup",
-                  "price": "6500",
-                  "time_code": "XXO"
-                },
-                {
-                  "name": "[아시안픽스]치킨카레라이스 Chicken Curry",
-                  "price": "6500",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "fri": [
             {
               "category": "셀프라면",
-              "items": [
-                {
-                  "name": "사리 (Egg & cheese)",
-                  "price": "500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "공기밥 Steamed rice",
-                  "price": "800",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "신라면 Sin Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "안성탕면 Ansung Tangmyeon",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "삼양라면 Samyang Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "진라면(매운맛) Jin Ramen(Spicy)",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "진라면(순한맛) Jin Ramen(mild flavor)",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "오징어짬뽕 Squid Jjamppong Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "너구리라면 Neoguri Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "참깨라면 Sesame Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "틈새라면빨계떡 Red spicy rice cake for a snack",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "나가사끼짬뽕라면 Nagasaki Jjamppong Ramen",
-                  "price": "2500",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "짜파게티 Jajang ramen",
-                  "price": "3000",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "까르보불닭볶음면(치즈)Carbo Spicy Chicken Stir-Fried Noodles",
-                  "price": "3700",
-                  "time_code": "OOO"
-                },
-                {
-                  "name": "불닭볶음면(치즈) Fire Chicken Stir-Fried Noodles",
-                  "price": "3700",
-                  "time_code": "OOO"
-                }
-              ]
+              "items": []
             },
             {
               "category": "스낵",
-              "items": [
-                {
-                  "name": "추억의도시락Lunchbox of Memories",
-                  "price": "4300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "꼬치어묵(2개) Skewered fish cake",
-                  "price": "1500",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "소떡소떡Sausage rice cake skewer",
-                  "price": "2000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "떡볶이 Tteokbokki",
-                  "price": "3000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "모둠튀김 Assorted fried food",
-                  "price": "3000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "닭강정 Fried chicken bites",
-                  "price": "5000",
-                  "time_code": "OOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "간편식",
-              "items": [
-                {
-                  "name": "유부초밥 Inari sushi",
-                  "price": "3300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "토핑유부초밥 Topping Inari Sushi",
-                  "price": "4500",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "훈제란/구운란 반반 Roasted egg&Soft-boiled egg",
-                  "price": "2000",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "샌드위치 Sandwich",
-                  "price": "4300",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "랩샐러드 Wrap salad",
-                  "price": "4800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "오늘의요거트 Yogurt",
-                  "price": "3900",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "샐러드 Salad",
-                  "price": "5700",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "오레오즈컵시리얼&우유(두유) SET cup cereal",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "아몬드후레이크컵시리얼&우유(두유) SET cup cereal",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "선식&우유(두유) SET meal replacement powder",
-                  "price": "2800",
-                  "time_code": "OOX"
-                },
-                {
-                  "name": "프로틴&우유(두유) SET Protein",
-                  "price": "3000",
-                  "time_code": "OOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "[탕맛기픈]뚝)설렁탕&소면사리 Ox Bone based Soup",
-                  "price": "5800",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[모던키친]아라비아따파스타 Arrabbiata Spaghetti",
-                  "price": "6500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "[아시안픽스][트렌드미식회] 도산분식 국물떡볶이 Tteok-bokki",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]명란아보카도비빔밥 Pollack Roe and Avocado with Rice",
-                  "price": "6000",
-                  "time_code": "XXO"
-                }
-              ]
+              "items": []
             }
           ],
           "sat": [
@@ -3008,10 +2107,6 @@
             },
             {
               "category": "중식",
-              "items": []
-            },
-            {
-              "category": "석식",
               "items": []
             }
           ],
@@ -3108,19 +2203,9 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "[탕맛기픈]뚝)매운돈사태떡찜 Spicy Braised Pork shank",
-                  "price": "6800",
+                  "name": "[탕맛기픈]뚝)돈육고추장불고기 Stir-fried Pork with Korean Chili Paste",
+                  "price": "6000",
                   "time_code": "XOX"
-                }
-              ]
-            },
-            {
-              "category": "석식",
-              "items": [
-                {
-                  "name": "[모던키친]등심돈가스 Pork Cutlet & 토마토소스파스타 Tomato Pasta",
-                  "price": "6800",
-                  "time_code": "XXO"
                 }
               ]
             }
@@ -3139,12 +2224,12 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "수제비국 Hand-pulled Dough Soup",
+                  "name": "황태해장국 Dried Pollack Hangover Soup",
                   "price": "1000",
                   "time_code": "OXX"
                 },
                 {
-                  "name": "치밥 Rice topped with Chicken",
+                  "name": "매콤오징어덮밥 Rice topped with stir fried squid",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3154,7 +2239,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "돈육돌솥비빔밥 Bibimbap with pork in a Hot Stone Pot",
+                  "name": "새우볶음밥&짜장소스 Stir Fried Rice with Shrimp & Black Soybean Sauce",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3170,12 +2255,12 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "나주곰탕 Beef Bone Soup",
+                  "name": "경상도식 쇠고기매운국 Beef Spicy Soup",
                   "price": "1000",
                   "time_code": "OXX"
                 },
                 {
-                  "name": "콩나물제육덮밥 Rice topped with bean sprouts and red pepper pork",
+                  "name": "너비아니데리야끼덮밥 Rice topped with Neubiani dariyaki sauce",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3185,12 +2270,12 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "일본식커리&순살치킨 Curry on the Rice with Boneless Chicken",
+                  "name": "* 가을 제일 방앗간 * 뚝)가래떡 왕만두 김치전골 Garaetteo Big Dumpling Kimchi Hot Pot",
                   "price": "6500",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "* 가을 제일 방앗간 * 방앗간 가래떡볶이 Tteokbokki",
+                  "name": "뿌링순살치킨 Prinkle Fried Boneless Chicke Chicken",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3206,12 +2291,7 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "뼈없는 감자탕 Boneless Gamjatang",
-                  "price": "1000",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "고추참치마요덮밥 Rice topped wit red pepper tuna mayo",
+                  "name": "돼지고기김치볶음&두부찜 Stir-fried Pork Kimchi & Steamed Tofu",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3221,7 +2301,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "★트렌드미식회 ★ '뚝)이차돌된장찌개 Soybean Paste Stew with Beef brisket slices",
+                  "name": "꼬치어묵우동 Fish Cake Skewer Udon",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3235,33 +2315,11 @@
           "thu": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "돼지고기고추장찌개 Hot pepper paste stew with Pork",
-                  "price": "1000",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "쇠고기야채죽 Beef and Vegetable Porridge",
-                  "price": "1000",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "도쿄함박스테이크 Hamburg steak",
-                  "price": "6500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "* 가을 제일 방앗간 * 언양식불고기 참기름비빔밥 Bibimbap with Bulgogi",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
@@ -3271,23 +2329,11 @@
           "fri": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "사골손만둣국 Beef Bone Soup with dumpling",
-                  "price": "1000",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "뚝)돈가스김치나베 Kimchi Pork Cutlet",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
@@ -3336,12 +2382,12 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "수제비국 Hand-pulled Dough Soup",
+                  "name": "황태해장국 Dried Pollack Hangover Soup",
                   "price": "1000",
                   "time_code": "OXX"
                 },
                 {
-                  "name": "치밥 Rice topped with Chicken",
+                  "name": "매콤오징어덮밥 Rice topped with stir fried squid",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3351,7 +2397,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "돈육돌솥비빔밥 Bibimbap with pork in a Hot Stone Pot",
+                  "name": "새우볶음밥&짜장소스 Stir Fried Rice with Shrimp & Black Soybean Sauce",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3367,12 +2413,12 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "나주곰탕 Beef Bone Soup",
+                  "name": "경상도식 쇠고기매운국 Beef Spicy Soup",
                   "price": "1000",
                   "time_code": "OXX"
                 },
                 {
-                  "name": "콩나물제육덮밥 Rice topped with bean sprouts and red pepper pork",
+                  "name": "너비아니데리야끼덮밥 Rice topped with Neubiani dariyaki sauce",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3382,12 +2428,12 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "일본식커리&순살치킨 Curry on the Rice with Boneless Chicken",
+                  "name": "* 가을 제일 방앗간 * 뚝)가래떡 왕만두 김치전골 Garaetteo Big Dumpling Kimchi Hot Pot",
                   "price": "6500",
                   "time_code": "XOX"
                 },
                 {
-                  "name": "* 가을 제일 방앗간 * 방앗간 가래떡볶이 Tteokbokki",
+                  "name": "뿌링순살치킨 Prinkle Fried Boneless Chicke Chicken",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3403,12 +2449,7 @@
               "category": "조식",
               "items": [
                 {
-                  "name": "뼈없는 감자탕 Boneless Gamjatang",
-                  "price": "1000",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "고추참치마요덮밥 Rice topped wit red pepper tuna mayo",
+                  "name": "돼지고기김치볶음&두부찜 Stir-fried Pork Kimchi & Steamed Tofu",
                   "price": "1000",
                   "time_code": "OXX"
                 }
@@ -3418,7 +2459,7 @@
               "category": "중식",
               "items": [
                 {
-                  "name": "★트렌드미식회 ★ '뚝)이차돌된장찌개 Soybean Paste Stew with Beef brisket slices",
+                  "name": "꼬치어묵우동 Fish Cake Skewer Udon",
                   "price": "6500",
                   "time_code": "XOX"
                 }
@@ -3432,33 +2473,11 @@
           "thu": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "돼지고기고추장찌개 Hot pepper paste stew with Pork",
-                  "price": "1000",
-                  "time_code": "OXX"
-                },
-                {
-                  "name": "쇠고기야채죽 Beef and Vegetable Porridge",
-                  "price": "1000",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "도쿄함박스테이크 Hamburg steak",
-                  "price": "6500",
-                  "time_code": "XOX"
-                },
-                {
-                  "name": "* 가을 제일 방앗간 * 언양식불고기 참기름비빔밥 Bibimbap with Bulgogi",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
@@ -3468,23 +2487,11 @@
           "fri": [
             {
               "category": "조식",
-              "items": [
-                {
-                  "name": "사골손만둣국 Beef Bone Soup with dumpling",
-                  "price": "1000",
-                  "time_code": "OXX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "중식",
-              "items": [
-                {
-                  "name": "뚝)돈가스김치나베 Kimchi Pork Cutlet",
-                  "price": "6500",
-                  "time_code": "XOX"
-                }
-              ]
+              "items": []
             },
             {
               "category": "석식",
@@ -3535,19 +2542,6 @@
           "mon": [
             {
               "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "두부김칫국",
-                "안동찜닭",
-                "청포묵무침",
-                "열무된장나물",
-                "쌀밥",
-                "깍두기",
-                "숭늉"
-              ]
-            },
-            {
-              "meal_time": "조식",
               "category": "면요리",
               "items": [
                 "토핑라면",
@@ -3559,78 +2553,78 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "취나물밥*양념장",
+                "만두돈까스*케찹",
                 "순두부찌개",
-                "해물경단전",
-                "돈육잡채",
-                "배추김치/헛개차"
+                "가지볶음",
+                "부추겉절이",
+                "잡곡밥/배추김치",
+                "보리차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "양식",
               "items": [
-                "눈꽃치즈돈가스",
-                "크림스프",
-                "양배추샐러드*사우전아일랜드D",
-                "추가밥",
-                "오이피클",
-                "깍두기/헛개차"
+                "비프굴라쉬푸실리",
+                "양송이스프/갈릭라이스",
+                "웨지감자튀김",
+                "수제피클",
+                "양상추샐러드",
+                "깍두기/보리차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "즉석)얼큰탄탄면",
-                "꿔바로우",
-                "추가밥",
-                "유자단무지",
-                "깍두기",
-                "헛개차"
+                "순대두루치기덮밥",
+                "유부장국",
+                "연두부*양념장",
+                "부추겉절이",
+                "깍두기 / 보리차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "면요리",
               "items": [
-                "안성탕면",
-                "해물경단전",
+                "열라면",
+                "순대찜",
                 "쌀밥/배추김치",
-                "헛개차"
+                "보리차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "순대제육볶음",
-                "미역국",
-                "교자만두튀김",
-                "상추겉절이",
-                "잡곡밥",
-                "깍두기/헛개차"
+                "탕수육",
+                "팽이버섯계란국",
+                "청포묵김가루무침",
+                "새콤무생채",
+                "잡곡밥/배추김치",
+                "보리차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "일품",
               "items": [
-                "카레라이스&떡갈비",
-                "유부장국",
-                "콘샐러드",
-                "단무지",
-                "배추김치/헛개차"
+                "일식카레라이스",
+                "가쓰오장국",
+                "부들어묵볶음",
+                "유자단무지",
+                "배추김치/보리차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "면요리",
               "items": [
-                "안성탕면",
-                "교자만두튀김",
+                "열라면",
+                "물만두",
                 "쌀밥/배추김치",
-                "헛개차"
+                "보리차"
               ]
             }
           ],
@@ -3639,13 +2633,12 @@
               "meal_time": "조식",
               "category": "한식",
               "items": [
-                "순살감자탕",
-                "두부짜박이",
-                "취나물볶음",
-                "고춧잎지",
+                "시금치된장국",
+                "미트볼케찹조림",
+                "잔멸치볶음",
+                "상추겉절이",
                 "쌀밥",
-                "배추김치",
-                "숭늉"
+                "숭늉 /배추김치"
               ]
             },
             {
@@ -3661,76 +2654,78 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "고추장두루치기",
+                "김치닭볶음탕",
                 "콩나물국",
-                "도토리묵야채무침",
-                "무나물볶음",
-                "잡곡밥",
-                "배추김치/녹차"
+                "도토리묵*양념장",
+                "양념깻잎지",
+                "잡곡밥/깍두기",
+                "결명자차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "양식",
               "items": [
-                "누룽지닭죽",
-                "동치미",
-                "스팸구이*케찹",
-                "도토리묵야채무침",
-                "깍두기/녹차"
+                "비프하이라이스",
+                "가쓰오장국",
+                "교자만두튀김",
+                "오그락지",
+                "배추김치",
+                "결명자차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "즉석)온모밀소바",
-                "에비가츠동",
-                "락교&산고추지",
-                "깍두기",
-                "녹차"
+                "즉석)바지락칼국수",
+                "떡갈비구이*케찹",
+                "김가루주먹밥",
+                "배추김치",
+                "결명자차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "면요리",
               "items": [
-                "스낵면",
-                "메밀전병튀김",
+                "무파마",
+                "소떡강정",
                 "쌀밥/배추김치",
-                "녹차"
+                "결명자차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "묵은지닭찜",
-                "열무된장국",
-                "온두부찜",
-                "마늘쫑장아찌",
-                "잡곡밥/깍두기/녹차"
+                "돼지불백",
+                "미역국",
+                "숙주김치전",
+                "양파장아찌",
+                "잡곡밥/깍두기",
+                "결명자차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "일품",
               "items": [
-                "베이컨마늘볶음밥&계란F",
-                "가쓰오장국",
-                "갈비만두찜",
-                "마늘쫑장아찌",
-                "배추김치/녹차"
+                "나물비빔밥",
+                "미역국",
+                "야채계란찜",
+                "숙주김치전",
+                "깍두기/결명자차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "면요리",
               "items": [
-                "스낵면",
-                "메밀전병튀김",
+                "무파마",
+                "소떡강정",
                 "쌀밥/배추김치",
-                "녹차"
+                "결명자차"
               ]
             }
           ],
@@ -3739,13 +2734,12 @@
               "meal_time": "조식",
               "category": "한식",
               "items": [
-                "들깨미역국",
-                "제육김치볶음",
-                "감자채볶음",
-                "부추겉절이",
+                "조랭이떡국",
+                "뼈없는닭갈비",
+                "연근조림",
+                "숙주나물무침",
                 "쌀밥",
-                "깍두기",
-                "숭늉"
+                "숭늉/깍두기"
               ]
             },
             {
@@ -3761,239 +2755,36 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "데리야끼미트볼조림",
-                "오모리찌개",
-                "두부구이*양념장",
-                "숙주나물무침",
-                "잡곡밥",
-                "깍두기/메밀차"
+                "제육볶음",
+                "열무된장국",
+                "사각어묵볶음",
+                "마늘쫑장아찌",
+                "잡곡밥/배추김치",
+                "자스민차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "양식",
               "items": [
-                "장조림버터비빔밥",
-                "팽이버섯미소장국",
-                "두부구이*양념장",
-                "꼬들단무지무침",
-                "배추김치/메밀차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "즉석)차돌된장칼국수",
-                "오징어초무침",
-                "숙주나물무침",
-                "배추김치",
-                "메밀차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "면요리",
-              "items": [
-                "너구리",
-                "데리야끼미트볼조림",
-                "쌀밥/배추김치",
-                "메밀차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "콩나물불고기",
-                "맑은어묵국",
-                "애기새송이버섯볶음",
-                "와사비무쌈",
-                "잡곡밥",
-                "배추김치/메밀차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "일품",
-              "items": [
-                "돈육하이라이스",
-                "맑은어묵국",
-                "피자카츠*갈릭딥핑S",
-                "깍두기",
-                "메밀차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "면요리",
-              "items": [
-                "너구리",
-                "물만두찜",
-                "쌀밥/배추김치",
-                "메밀차"
-              ]
-            }
-          ],
-          "thu": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "얼큰콩나물무채국",
-                "돼지불백",
-                "아몬드멸치볶음",
-                "청경채나물",
-                "쌀밥",
-                "배추김치",
-                "숭늉"
-              ]
-            },
-            {
-              "meal_time": "조식",
-              "category": "면요리",
-              "items": [
-                "토핑라면",
-                "후리가케주먹밥",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "고구마닭갈비",
-                "표고된장찌개",
-                "볼어묵볶음",
-                "간장깻잎지",
-                "잡곡밥",
-                "배추김치/둥굴레차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "양식",
-              "items": [
-                "오므라이스",
-                "가쓰오장국",
-                "청양칼집소세지*머스타드S",
+                "돈가스마요덮밥",
+                "대파장국",
+                "양배추샐러드",
+                "*딸기요거트D",
                 "단무지",
                 "깍두기",
-                "둥굴레차"
+                "자스민차"
               ]
             },
             {
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "국물떡볶이",
-                "가쓰오장국",
-                "모듬튀김SET(가라아게,단호박,김말이)",
-                "김가루주먹밥",
-                "깍두기",
-                "둥굴레차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "면요리",
-              "items": [
-                "진라면",
-                "스모크햄전*케찹",
-                "쌀밥/배추김치",
-                "둥굴레차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "탕수육",
-                "얼큰짬뽕국",
-                "돈육짜장소스",
-                "땅콩조림",
-                "쌀밥",
-                "배추김치/둥굴레차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "일품",
-              "items": [
-                "오징어제육덮밥",
-                "대파장국",
-                "브로콜리두부무침",
-                "깍두기",
-                "둥굴레차"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "면요리",
-              "items": [
-                "진라면",
-                "스모크햄전*케찹",
-                "쌀밥/배추김치",
-                "둥굴레차"
-              ]
-            }
-          ],
-          "fri": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "팽이버섯계란국",
-                "데리야끼닭조림",
-                "김치전",
-                "사각어묵볶음",
-                "쌀밥",
-                "깍두기",
-                "숭늉"
-              ]
-            },
-            {
-              "meal_time": "조식",
-              "category": "면요리",
-              "items": [
-                "토핑라면",
-                "후리가케주먹밥",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "생선가스*강정S",
-                "육개장",
-                "알감자조림",
-                "건새우마늘쫑볶음",
-                "잡곡밥",
-                "깍두기/결명자차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "양식",
-              "items": [
-                "새싹참치비빔밥",
-                "두부장국",
-                "치즈계란말이*케찹",
-                "무말랭이장아찌",
-                "배추김치/결명자차"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "매콤쫄면",
-                "두부장국",
-                "참숯구이닭꼬치",
-                "후리가케주먹밥",
-                "배추김치",
-                "결명자차"
+                "즉석)얼큰돈육짬뽕",
+                "생선가스*타르S",
+                "추가밥",
+                "단무지",
+                "깍두기/자스민차"
               ]
             },
             {
@@ -4001,21 +2792,21 @@
               "category": "면요리",
               "items": [
                 "신라면",
-                "연두부*양념장",
+                "볼어묵볶음",
                 "쌀밥/배추김치",
-                "결명자차"
+                "자스민차"
               ]
             },
             {
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "(뚝大)등뼈김치찌개",
-                "산적구이*머스타드S",
-                "명엽채조림",
-                "콩나물무침",
-                "잡곡밥/깍두기",
-                "결명자차"
+                "(뚝)육개장",
+                "감자떡완자*케찹",
+                "브로콜리두부무침",
+                "고들빼기지",
+                "잡곡밥/배추김치",
+                "자스민차"
               ]
             },
             {
@@ -4023,66 +2814,16 @@
               "category": "면요리",
               "items": [
                 "토핑라면",
-                "연두부*양념장",
+                "브로콜리두부무침",
                 "쌀밥/배추김치",
-                "결명자차"
+                "자스민차"
               ]
             }
           ],
-          "sat": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "참치김치찌개",
-                "야채계란찜",
-                "가지볶음",
-                "마늘쫑무침",
-                "쌀밥",
-                "깍두기",
-                "숭늉"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "토마토치즈제육덮밥",
-                "가쓰오장국",
-                "건포도고구마샐러드",
-                "오복채무침",
-                "배추김치",
-                "요구르트/숭늉"
-              ]
-            }
-          ],
-          "sun": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "청국장찌개",
-                "두부찜*양념간장",
-                "돈육잡채",
-                "마늘쫑볶음",
-                "쌀밥",
-                "배추김치",
-                "숭늉"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "호박새우젓국",
-                "제육볶음",
-                "알감자조림",
-                "고춧잎지",
-                "쌀밥/배추김치",
-                "맛김/숭늉"
-              ]
-            }
-          ]
+          "thu": [],
+          "fri": [],
+          "sat": [],
+          "sun": []
         }
       },
       {
@@ -4097,22 +2838,9 @@
               "meal_time": "조식",
               "category": "한식",
               "items": [
-                "칠리해물경단볶음",
-                "교자만둣국",
-                "알감자조림",
-                "고들빼기지",
-                "쌀밥",
-                "숭늉",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "칠리해물경단볶음",
-                "교자만둣국",
-                "알감자조림",
+                "파채고기산적",
+                "고추장찌개",
+                "우엉채조림",
                 "고들빼기지",
                 "쌀밥",
                 "숭늉",
@@ -4133,10 +2861,10 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "콩나물닭갈비",
-                "(뚝)열무된장국",
-                "미역줄기볶음",
-                "오이지무침",
+                "짬뽕맛닭갈비",
+                "(뚝)꼬치어묵무국",
+                "콩나물무침",
+                "짜사이채무침",
                 "잡곡밥"
               ]
             },
@@ -4146,7 +2874,7 @@
               "items": [
                 "가마솥)모듬햄부대찌개",
                 "도시락김",
-                "오이지무침",
+                "콩나물무침",
                 "쌀밥",
                 "깍두기"
               ]
@@ -4155,9 +2883,10 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "치킨까스마요덮밥",
-                "미니얼큰우동",
-                "모듬춘권튀김",
+                "갈릭돈까스",
+                "후리가케주먹밥",
+                "버터롤*딸기잼",
+                "대파장국",
                 "단무지"
               ]
             },
@@ -4165,10 +2894,13 @@
               "meal_time": "중식",
               "category": "면요리",
               "items": [
-                "즉석)꼬치어묵나가사키짬뽕",
-                "미니마파두부덮밥",
-                "중국식땅콩볶음",
-                "단무지"
+                "Chef Exchange Day",
+                "비프굴라쉬푸실리",
+                "양송이크림스프",
+                "갈릭라이스",
+                "웨지감자튀김",
+                "양상추샐러드",
+                "수제피클"
               ]
             },
             {
@@ -4180,15 +2912,15 @@
             },
             {
               "meal_time": "석식",
-              "category": "한식",
+              "category": "석식1",
               "items": [
-                "감자수제비국",
+                "순살감자탕",
                 "or진라면",
-                "어묵계란전*파채G",
-                "두부까스*머스타드S",
-                "숙주나물무침",
+                "크리미어니언치킨까스",
+                "바싹김치전",
+                "깐마늘마늘쫑지",
                 "잡곡밥",
-                "포기김치/살구주스"
+                "깍두기/살구주스"
               ]
             }
           ],
@@ -4197,23 +2929,32 @@
               "meal_time": "조식",
               "category": "한식",
               "items": [
-                "김치찌개",
-                "두부스크램블",
-                "볼어묵볶음",
-                "마늘쫑지",
+                "생선까스*타르타르S",
+                "들깨버섯찌개",
+                "실곤약야채무침",
+                "도시락김",
                 "쌀밥",
                 "숭늉",
                 "깍두기"
               ]
             },
             {
+              "meal_time": "조식",
+              "category": "간편식",
+              "items": [
+                "길거리햄치즈토스트",
+                "콘푸로스트&우유",
+                "알옥수수샐러드"
+              ]
+            },
+            {
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "(뚝)우삼겹육개장",
-                "통살탕수육",
-                "버섯곤약조림",
-                "오그락지무침",
+                "매콤떡제육볶음",
+                "(뚝)미역국",
+                "고사리나물",
+                "유자청상추겉절이",
                 "잡곡밥"
               ]
             },
@@ -4221,9 +2962,20 @@
               "meal_time": "중식",
               "category": "양식",
               "items": [
-                "가마솥)살코기수육국밥&소면",
-                "오그락지무침",
-                "새우젓양념",
+                "가마솥)우삼겹갈비탕&당면",
+                "무말랭이무침",
+                "갈비탕소스",
+                "쌀밥",
+                "포기김치"
+              ]
+            },
+            {
+              "meal_time": "중식",
+              "category": "양식",
+              "items": [
+                "가마솥)우삼겹갈비탕&당면",
+                "무말랭이무침",
+                "갈비탕소스",
                 "쌀밥",
                 "포기김치"
               ]
@@ -4232,30 +2984,20 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "눈꽃치즈주꾸미볶음밥",
-                "복만두찜",
-                "대파장국",
-                "콘슬로우"
+                "묵은지참치덮밥",
+                "팽이장국",
+                "갈비만두찜",
+                "단무지"
               ]
             },
             {
               "meal_time": "중식",
               "category": "면요리",
               "items": [
-                "팟타이볶음면",
-                "후리가케주먹밥",
-                "치즈맛알새우칩",
-                "가쓰오장국",
+                "즉석)미나리샤브칼국수",
+                "미니콩나물밥*양념장",
+                "통마늘고기산적",
                 "단무지"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "간편식",
-              "items": [
-                "길거리햄치즈토스트",
-                "콘푸로스트&우유",
-                "알옥수수샐러드"
               ]
             },
             {
@@ -4267,15 +3009,15 @@
             },
             {
               "meal_time": "석식",
-              "category": "한식",
+              "category": "석식1",
               "items": [
-                "두부콩나물된장국",
+                "돈육짜글이찌개",
                 "or진라면",
-                "묵은지찜닭",
-                "들깨무나물",
-                "파래김*양념간장",
+                "미트볼비엔나볶음",
+                "맛살스크램블",
+                "고춧잎장아찌",
                 "잡곡밥",
-                "깍두기/키위주스"
+                "포기김치/키위주스"
               ]
             }
           ],
@@ -4284,13 +3026,13 @@
               "meal_time": "조식",
               "category": "한식",
               "items": [
-                "순두부찌개",
-                "생선까스*타르타르S",
-                "치커리양파무침",
-                "검은콩자반",
+                "토마토미트볼펜네",
+                "계란감자국",
+                "숙주나물무침",
+                "초석잠장아찌",
                 "쌀밥",
                 "숭늉",
-                "깍두기"
+                "포기김치"
               ]
             },
             {
@@ -4307,9 +3049,9 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "고추잡채불고기",
-                "(뚝)양배추계란국",
-                "맛살겨자냉채",
+                "(뚝)참치김치찌개",
+                "난자완스",
+                "봉어묵볶음",
                 "마늘쫑무침",
                 "잡곡밥"
               ]
@@ -4318,9 +3060,9 @@
               "meal_time": "중식",
               "category": "양식",
               "items": [
-                "가마솥)우삼겹된장술밥",
-                "맛살겨자냉채",
-                "고춧잎장아찌",
+                "가마솥)살코기수육국밥&소면",
+                "마늘쫑무침",
+                "새우젓양념",
                 "쌀밥",
                 "깍두기"
               ]
@@ -4329,20 +3071,21 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "우렁강된장덮밥",
-                "미니돈가스*케찹",
-                "미역국",
-                "고춧잎장아찌"
+                "전복내장소스볶음밥",
+                "배추된장국",
+                "맵달라면땅",
+                "단무지"
               ]
             },
             {
               "meal_time": "중식",
               "category": "면요리",
               "items": [
-                "즉석)멸치칼국수",
-                "미니무생채밥",
-                "대왕동그랑땡전",
-                "단무지부추무침"
+                "애호박쯔유국수",
+                "유부초주먹밥",
+                "더블새우튀김",
+                "팽이장국",
+                "단무지"
               ]
             },
             {
@@ -4354,219 +3097,21 @@
             },
             {
               "meal_time": "석식",
-              "category": "한식",
+              "category": "석식1",
               "items": [
-                "사골조랭이떡국",
+                "콩나물국",
                 "or진라면",
-                "불고기두부조림",
-                "느타리버섯볶음",
-                "무말랭이무침",
+                "매콤데리야끼닭볶음",
+                "청포묵부추무침",
+                "양념오이지",
                 "잡곡밥",
                 "포기김치/자몽주스"
               ]
             }
           ],
-          "thu": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "브로콜리소시지볶음",
-                "고추장찌개",
-                "숙주두부나물",
-                "고춧잎장아찌",
-                "쌀밥",
-                "숭늉",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "조식",
-              "category": "간편식",
-              "items": [
-                "후렌치토스트",
-                "치킨소시지구이*케찹",
-                "콘푸로스트&우유",
-                "양배추샐러드"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "(뚝)고기짬뽕국",
-                "고기산적*불벅마요S",
-                "청포묵김버무리",
-                "짜사이채무침",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "양식",
-              "items": [
-                "가마솥)우삼겹갈비탕&당면",
-                "간장깻잎지",
-                "갈비탕소스",
-                "쌀밥",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "삼색야끼도리덮밥",
-                "감자고로케*케찹",
-                "가쓰오장국",
-                "단무지"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "면요리",
-              "items": [
-                "나폴리탄파스타",
-                "흑깨주먹밥",
-                "스마일감자함박",
-                "유부장국",
-                "오이피클"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "자율코너",
-              "items": [
-                "포기김치/레몬주스"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "무채콩나물국",
-                "or진라면",
-                "제육간장불고기",
-                "시래기장떡전",
-                "마늘쫑무침",
-                "잡곡밥",
-                "깍두기/레몬주스"
-              ]
-            }
-          ],
-          "fri": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "고기튀김*머스타드S",
-                "시골장터국밥",
-                "햄마늘쫑볶음",
-                "오이지무침",
-                "쌀밥",
-                "숭늉",
-                "깍두기"
-              ]
-            },
-            {
-              "meal_time": "조식",
-              "category": "간편식",
-              "items": [
-                "진라면*내맘대로토핑",
-                "김가루후리가케주먹밥",
-                "단무지",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "(뚝)들깨순두부탕",
-                "오징어어묵초무침",
-                "시래기된장지짐",
-                "간장깻잎지",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "양식",
-              "items": [
-                "가마솥)샤브샤브버섯전골",
-                "무말랭이무침",
-                "참소스",
-                "쌀밥",
-                "포기김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "토마토치즈제육덮밥",
-                "설탕도너츠",
-                "팽이장국",
-                "단무지"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "면요리",
-              "items": [
-                "즉석)돼지곰탕면*다대기",
-                "미니메밀전병",
-                "김가루밥",
-                "부추겉절이"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "자율코너",
-              "items": [
-                "포기김치/미숫가루"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "종합어묵국",
-                "or진라면",
-                "뼈없는닭갈비",
-                "떡잡채",
-                "새콤무생채",
-                "잡곡밥",
-                "포기김치/미숫가루"
-              ]
-            }
-          ],
-          "sat": [
-            {
-              "meal_time": "조식",
-              "category": "한식",
-              "items": [
-                "순대야채볶음",
-                "미역국",
-                "메추리알곤약조림",
-                "콩나물무침",
-                "쌀밥",
-                "깍두기"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "고기듬뿍하이라이스",
-                "계란파국",
-                "야채비빔교자만두",
-                "간장무말랭이지",
-                "딸기요거트",
-                "포기김치"
-              ]
-            }
-          ],
+          "thu": [],
+          "fri": [],
+          "sat": [],
           "sun": []
         }
       },
@@ -4582,10 +3127,21 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "두부두루치기",
-                "냉이된장국",
-                "해물파전",
-                "참나물무침",
+                "비프 굴라쉬 푸실리",
+                "양송이스프",
+                "갈릭라이스",
+                "웨지감자튀김",
+                "수제피클"
+              ]
+            },
+            {
+              "meal_time": "중식",
+              "category": "일품",
+              "items": [
+                "소고기야채전골",
+                "도톰동그랑땡전",
+                "오징어미나리초무침",
+                "멸치볶음",
                 "열무김치",
                 "잡곡밥"
               ]
@@ -4599,6 +3155,18 @@
                 "주스",
                 "계절과일",
                 "스낵바"
+              ]
+            },
+            {
+              "meal_time": "석식",
+              "category": "한식",
+              "items": [
+                "제육주꾸미볶음",
+                "시금치된장국",
+                "새송이버터구이",
+                "토마토스크램블",
+                "포기김치",
+                "잡곡밥"
               ]
             },
             {
@@ -4618,11 +3186,11 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "곤드레국밥",
-                "갈비양념제육볶음",
-                "파래김자반",
-                "콩나물무침",
-                "깍두기",
+                "우삼겹순두부찌개",
+                "동태전",
+                "사각어묵볶음",
+                "간장고추지무침",
+                "포기김치",
                 "잡곡밥"
               ]
             },
@@ -4630,10 +3198,11 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "사골칼국수",
-                "유부우엉주먹밥",
-                "돼지고기육전*양파간장절임",
-                "배추겉절이"
+                "백짬뽕",
+                "후리가케주먹밥",
+                "탕수육*감귤소스",
+                "짜사이무침",
+                "포기김치"
               ]
             },
             {
@@ -4651,11 +3220,11 @@
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "(뚝)버섯전골",
-                "돼지고기수육",
-                "가지나물",
-                "마늘쫑건새우볶음",
-                "배추겉절이",
+                "(뚝)돼지고기김치찌개",
+                "가라아게닭강정",
+                "브로콜리두부무침",
+                "도시락김",
+                "깍두기",
                 "잡곡밥"
               ]
             },
@@ -4676,68 +3245,10 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "뼈없는감자탕",
-                "꽈리고추돈육장조림",
-                "부추메밀전",
-                "오이무침",
-                "열무김치",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "우삼겹깍두기볶음밥*김가루",
-                "들깨미역국",
-                "닭보쌈*대파쌈무채무침",
-                "배추겉절이"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "견과류",
-                "주스",
-                "계절과일",
-                "스낵바"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "육개장",
-                "해물경단전*머스타드",
-                "브로콜리&곰피초회",
-                "들깨무나물",
-                "백김치",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "견과류",
-                "주스",
-                "계절과일",
-                "스낵바"
-              ]
-            }
-          ],
-          "thu": [
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "(뚝)안동찜닭*납작당면",
-                "얼큰어묵국",
-                "계란말이*케찹",
-                "진미채양배추무침",
+                "(뚝)돼지갈비찜",
+                "건새우아욱국",
+                "김치전",
+                "참나물겉절이",
                 "깍두기",
                 "잡곡밥"
               ]
@@ -4746,10 +3257,9 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "쇠고기콩나물밥*양념장",
-                "얼큰어묵국",
-                "파인애플함박스테이크",
-                "상추무침",
+                "닭갈비볶음밥*지단채",
+                "건새우아욱국",
+                "소떡소떡*강정소스",
                 "깍두기"
               ]
             },
@@ -4763,90 +3273,10 @@
                 "계절과일",
                 "스낵바"
               ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "우삼겹숙주볶음",
-                "참치김치찌개",
-                "호박채전",
-                "취나물무침",
-                "열무김치",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "견과류",
-                "주스",
-                "계절과일",
-                "스낵바"
-              ]
             }
           ],
-          "fri": [
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "삼겹구이*파채무침",
-                "쇠고기무국",
-                "녹두부침개",
-                "청경채겉절이",
-                "백김치",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "짬뽕덮밥",
-                "쇠고기무국",
-                "교자만두&꿔바로우*탕수S",
-                "청경채겉절이",
-                "백김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "견과류",
-                "주스",
-                "계절과일",
-                "스낵바"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "(뚝)미나리곰탕",
-                "부추순대찜*양념새우젓",
-                "오징어김치전",
-                "아삭이고추쌈장무침",
-                "깍두기",
-                "잡곡밥"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "샐러드바",
-              "items": [
-                "양상추샐러드",
-                "견과류",
-                "주스",
-                "계절과일",
-                "스낵바"
-              ]
-            }
-          ],
+          "thu": [],
+          "fri": [],
           "sat": [],
           "sun": []
         }
@@ -4863,25 +3293,28 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "뚝)비지찌개",
-                "치킨가스*머스타드S",
-                "매콤순대볶음",
-                "오이생채",
+                "뚝)청양된장찌개",
+                "순살간장찜닭",
+                "오징어부추전",
+                "유부맛살무침",
                 "현미밥",
                 "요구르트",
-                "깍두기"
+                "배추김치"
               ]
             },
             {
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "(大)얼큰소고기버섯샤브칼국수",
-                "추가밥",
-                "왕만두찜*초간장",
-                "산고추지",
+                "[pop-up]",
+                "비프 굴라쉬 푸실리",
+                "양송이버섯크림스프",
+                "갈릭야채볶음밥",
+                "웨지감자튀김",
+                "수제피클",
+                "그린샐러드",
                 "요구르트",
-                "깍두기"
+                "배추김치"
               ]
             },
             {
@@ -4889,12 +3322,12 @@
               "category": "자율코너",
               "items": [
                 "[11시 30분 오픈]",
-                "마라샹궈",
-                "가쓰오장국",
-                "계란볶음밥/쌀밥",
-                "짜장떡볶이",
-                "반달단무지",
-                "배추김치",
+                "김치제육볶음",
+                "맑은콩나물국",
+                "온두부",
+                "양파간장절임",
+                "쌀밥",
+                "깍두기",
                 "요구르트"
               ]
             },
@@ -4902,10 +3335,10 @@
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "뚝)북어채콩나물해장국",
-                "매콤돈육메추리알장조림",
-                "스모크햄맛살볶음",
-                "들깨무나물",
+                "뚝)소고기국밥",
+                "새우가스*콘소스",
+                "부추잡채",
+                "무생채",
                 "쌀밥",
                 "배추김치",
                 "요구르트"
@@ -4917,8 +3350,8 @@
               "items": [
                 "신라면/쌀밥",
                 "교자만두",
-                "스모크햄맛살볶음",
-                "들깨무나물",
+                "부추잡채",
+                "무생채",
                 "배추김치",
                 "요구르트"
               ]
@@ -4929,10 +3362,10 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "뚝)버섯고추장찌개",
-                "고사리돼지불백",
-                "미니잡채어묵*케찹",
-                "브로콜리두부무침",
+                "뚝)콩나물국밥",
+                "샐러드생선가스",
+                "메추리알스모크햄떡장조림",
+                "양념고추지",
                 "현미밥",
                 "요구르트",
                 "깍두기"
@@ -4942,9 +3375,9 @@
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "김치어묵우동",
-                "목살필라프",
-                "감자고구마범벅",
+                "온김치말이국수",
+                "스팸마요덮밥",
+                "고기포자만두찜",
                 "단무지",
                 "요구르트",
                 "깍두기"
@@ -4954,12 +3387,12 @@
               "meal_time": "중식",
               "category": "자율코너",
               "items": [
-                "[11시 30분]",
-                "데리야끼찜닭",
-                "얼큰감자국",
-                "돈채숙주볶음",
-                "목이버섯초무침",
-                "쌀밥",
+                "[11시 30분 오픈]",
+                "까르보불닭누들떡볶이",
+                "가쓰오장국",
+                "밥버거",
+                "스위트콘치즈",
+                "수제피클",
                 "요구르트",
                 "깍두기"
               ]
@@ -4968,12 +3401,12 @@
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "뚝)사골우거지해장국",
-                "온두부&볶음김치",
-                "만두돈가스",
-                "고들빼기무침",
+                "뚝)얼큰시래기순댓국",
+                "콩불",
+                "고구마맛탕",
+                "미역줄기볶음",
                 "쌀밥",
-                "깍두기",
+                "배추김치",
                 "요구르트"
               ]
             },
@@ -4982,10 +3415,10 @@
               "category": "간편식",
               "items": [
                 "신라면/쌀밥",
-                "춘권",
-                "온두부&볶음김치",
-                "고들빼기무침",
-                "깍두기",
+                "파전",
+                "고구마맛탕",
+                "미역줄기볶음",
+                "배추김치",
                 "요구르트"
               ]
             }
@@ -4995,25 +3428,25 @@
               "meal_time": "중식",
               "category": "한식",
               "items": [
-                "뚝)나주곰탕",
-                "미트볼바베큐소스조림",
-                "베이컨감자채전",
-                "꼬시래기초무침",
+                "뚝)수육국밥",
+                "마늘떡갈비볶음",
+                "김치전",
+                "아삭이고추된장무침",
                 "현미밥",
-                "요구르트",
-                "배추김치"
+                "단호박식혜",
+                "깍두기"
               ]
             },
             {
               "meal_time": "중식",
               "category": "일품",
               "items": [
-                "치즈라면",
-                "참치생야채비빔밥",
-                "미니찐빵",
+                "(大)들기름막국수",
+                "추가밥",
+                "고추장닭갈비",
                 "단무지",
-                "요구르트",
-                "배추김치"
+                "단호박식혜",
+                "깍두기"
               ]
             },
             {
@@ -5021,26 +3454,26 @@
               "category": "자율코너",
               "items": [
                 "[11시 30분 오픈]",
-                "마파두부덮밥",
-                "파송송계란국",
-                "치킨너겟유린기",
-                "짜사이무침",
+                "불고기카레라이스",
+                "열무된장국",
+                "미니돈가스*케찹",
+                "연근흑임자샐러드",
                 "쌀밥",
-                "요구르트",
-                "배추김치"
+                "단호박식혜",
+                "깍두기"
               ]
             },
             {
               "meal_time": "석식",
               "category": "한식",
               "items": [
-                "뚝)유부주머니백반",
-                "파닭",
-                "매콤감자조림",
-                "콩나물겨자채무침",
+                "뚝)순두부계란탕",
+                "돈사태김치찜",
+                "볼어묵영콘볶음",
+                "검은콩자반",
                 "쌀밥",
                 "요구르트",
-                "배추김치"
+                "깍두기"
               ]
             },
             {
@@ -5048,146 +3481,16 @@
               "category": "간편식",
               "items": [
                 "신라면/쌀밥",
-                "오징어링",
-                "매콤감자조림",
-                "콩나물겨자채무침",
+                "돈사태김치찜",
+                "볼어묵영콘볶음",
+                "검은콩자반",
                 "요구르트",
-                "배추김치"
+                "깍두기"
               ]
             }
           ],
-          "thu": [
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "뚝)꼬치어묵탕&면사리",
-                "오징어가스*스리라차마요S",
-                "스크램블에그",
-                "오복채무침",
-                "현미밥",
-                "요구르트",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "청양수제비",
-                "제육덮밥",
-                "연두부*양념장",
-                "단무지",
-                "요구르트",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "자율코너",
-              "items": [
-                "[11시 30분 오픈]",
-                "매콤토마토스파게티",
-                "미소장국",
-                "새우갈릭볶음밥/쌀밥",
-                "얼갈이시저샐러드",
-                "수제무피클",
-                "요구르트",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "뚝)돼지고기김치찌개",
-                "훈제오리야채무침",
-                "한입해물파전",
-                "간장마늘쫑지",
-                "쌀밥",
-                "깍두기",
-                "요구르트"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "간편식",
-              "items": [
-                "신라면/쌀밥",
-                "야채고로케",
-                "한입해물파전",
-                "간장마늘쫑지",
-                "깍두기",
-                "요구르트"
-              ]
-            }
-          ],
-          "fri": [
-            {
-              "meal_time": "중식",
-              "category": "한식",
-              "items": [
-                "뚝)닭곰탕",
-                "돈사태시래기찜",
-                "어묵잡채",
-                "미역초무침",
-                "현미밥",
-                "복숭아아이스티",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "일품",
-              "items": [
-                "오므라이스&칼집소세지",
-                "미니온모밀",
-                "양배추샐러드*유자드레싱",
-                "단무지",
-                "복숭아아이스티",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "중식",
-              "category": "자율코너",
-              "items": [
-                "[11시 30분 오픈]",
-                "고사리깻잎밥*양념장",
-                "어묵국",
-                "고기산적야채볶음",
-                "꽈리고추멸치볶음",
-                "무말랭이무침",
-                "복숭아아이스티",
-                "배추김치"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "한식",
-              "items": [
-                "뚝)경상도식쇠고기뭇국",
-                "임꺽정떡갈비&파채무침",
-                "애기새송이버섯영콘볶음",
-                "콩조림",
-                "쌀밥",
-                "배추김치",
-                "요구르트"
-              ]
-            },
-            {
-              "meal_time": "석식",
-              "category": "간편식",
-              "items": [
-                "신라면/쌀밥",
-                "임꺽정떡갈비&파채무침",
-                "애기새송이버섯영콘볶음",
-                "콩조림",
-                "배추김치",
-                "요구르트"
-              ]
-            }
-          ],
+          "thu": [],
+          "fri": [],
           "sat": [],
           "sun": []
         }

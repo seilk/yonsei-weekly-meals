@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:01:01+09:00",
+  "generated_at": "2026-09-22T12:58:18+09:00",
   "week_labels": {
     "mon": "월(09/21)",
     "tue": "화(09/22)",
@@ -9,8 +9,8 @@
     "sat": "토(09/26)",
     "sun": "일(09/27)"
   },
-  "today_key": "mon",
-  "today_label": "월(09/21)",
+  "today_key": "tue",
+  "today_label": "화(09/22)",
   "warnings": [],
   "sources": [
     {
@@ -147,67 +147,67 @@
               "items": [
                 {
                   "name": "라면 Ramen",
-                  "price": "5800",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "5800",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "5800",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "5800",
+                  "price": "3700",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "5800",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "5800",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "5800",
+                  "price": "3500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "5800",
+                  "price": "4000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "5800",
+                  "price": "5000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "공기밥 Rice",
-                  "price": "5800",
+                  "price": "1000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "치즈사리 Add ( Cheese)",
-                  "price": "5800",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "떡사리 Add ( Rice cake)",
-                  "price": "5800",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "5800",
+                  "name": "날계란사리 Add (Raw Egg )",
+                  "price": "500",
                   "time_code": "XOO"
                 }
               ]
@@ -329,67 +329,67 @@
               "items": [
                 {
                   "name": "라면 Ramen",
-                  "price": "6300",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "6300",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "6300",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "6300",
+                  "price": "3700",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "6300",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "6300",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "6300",
+                  "price": "3500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "6300",
+                  "price": "4000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "6300",
+                  "price": "5000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "공기밥 Rice",
-                  "price": "6300",
+                  "price": "1000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "치즈사리 Add ( Cheese)",
-                  "price": "6300",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "떡사리 Add ( Rice cake)",
-                  "price": "6300",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "6300",
+                  "name": "날계란사리 Add (Raw Egg )",
+                  "price": "500",
                   "time_code": "XOO"
                 }
               ]
@@ -511,67 +511,67 @@
               "items": [
                 {
                   "name": "라면 Ramen",
-                  "price": "5700",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "해장라면 Bean Sprout& Dried Pollack Ramen",
-                  "price": "5700",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "자파게티 Noodles with Black Soybean Sauce",
-                  "price": "5700",
+                  "price": "3000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "불닭볶음면&치즈 Hot Chicken Flavor Ramen",
-                  "price": "5700",
+                  "price": "3700",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(햄) Rice Ball (Ham)",
-                  "price": "5700",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "폭탄주먹밥(참치) Rice Ball (Tuna)",
-                  "price": "5700",
+                  "price": "2500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings)",
-                  "price": "5700",
+                  "price": "3500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "즉석철판떡볶이 Stir-fried Rice Cake",
-                  "price": "5700",
+                  "price": "4000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "닭강정 Sweet and Sour Chicken",
-                  "price": "5700",
+                  "price": "5000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "공기밥 Rice",
-                  "price": "5700",
+                  "price": "1000",
                   "time_code": "XOO"
                 },
                 {
                   "name": "치즈사리 Add ( Cheese)",
-                  "price": "5700",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
                   "name": "떡사리 Add ( Rice cake)",
-                  "price": "5700",
+                  "price": "500",
                   "time_code": "XOO"
                 },
                 {
-                  "name": "날계란사리 Add ( Raw Egg )",
-                  "price": "5700",
+                  "name": "날계란사리 Add (Raw Egg )",
+                  "price": "500",
                   "time_code": "XOO"
                 }
               ]
@@ -2781,9 +2781,9 @@
               "category": "일품",
               "items": [
                 "즉석)얼큰돈육짬뽕",
-                "생선가스*타르S",
+                "깐풍학센튀김",
                 "추가밥",
-                "단무지",
+                "적채절임",
                 "깍두기/자스민차"
               ]
             },

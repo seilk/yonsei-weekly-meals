@@ -5,7 +5,7 @@
 <details>
 <summary>메타 정보 (Last updated / Sources)</summary>
 
-- Last updated (KST): **2026-09-24T12:48:58+09:00**
+- Last updated (KST): **2026-09-25T13:04:20+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
@@ -59,11 +59,11 @@
 
 ## 오늘 메뉴
 
-**오늘:** 목(09/24)
+**오늘:** 금(09/25)
 
 | 식당 | 메뉴 |
 |---|---|
-| 연세대학교 맛나샘 | 🌄 **아침 (조식)**: 추석 |
+| 연세대학교 맛나샘 | - |
 | 연세대학교 한경관(어울샘) | - |
 | 세브란스 종합관 | - |
 | 세브란스 제중관 | - |

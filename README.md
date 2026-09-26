@@ -5,7 +5,7 @@
 <details>
 <summary>메타 정보 (Last updated / Sources)</summary>
 
-- Last updated (KST): **2026-09-25T13:04:20+09:00**
+- Last updated (KST): **2026-09-26T13:09:02+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
@@ -59,7 +59,7 @@
 
 ## 오늘 메뉴
 
-**오늘:** 금(09/25)
+**오늘:** 토(09/26)
 
 | 식당 | 메뉴 |
 |---|---|

@@ -5,7 +5,7 @@
 <details>
 <summary>메타 정보 (Last updated / Sources)</summary>
 
-- Last updated (KST): **2026-10-05T13:44:47+09:00**
+- Last updated (KST): **2026-10-06T14:31:03+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
@@ -59,14 +59,14 @@
 
 ## 오늘 메뉴
 
-**오늘:** 월(10/05)
+**오늘:** 화(10/06)
 
 | 식당 | 메뉴 |
 |---|---|
-| 연세대학교 맛나샘 | 🌄 **아침 (조식)**: 대체공휴일 Observed Holiday |
-| 연세대학교 한경관(어울샘) | - |
-| 세브란스 종합관 | - |
-| 세브란스 제중관 | - |
+| 연세대학교 맛나샘 | 🌄 **아침 (조식)**: 사골교자만둣국 Beef Bone Broth with Gyoza Dumplings (1,000원), 쌀밥, 고기산적와사비마요덮밥 Grilled Beef Skewers with Wasabi Mayo over Rice (1,000원), 우동국<br>🌄 **조식자율바**: 고추장멸치조림, 사각어묵볶음, 배추김치<br>**탕맛기픈**: 순두부찌개 Soft Tofu Stew (5,000원), 설렁탕 Ox Bone Soup (5,800원)<br>**동방식객 /모던키친**: 탄탄멘& 핫도그\*케찹 Tantanmen & Hot Dog (6,500원), 치즈멘치가스로제소스 오므라이스 Cheese Menchi Katsu Omurice with Rosé Sauce (6,800원)<br>**공통메뉴**: 쌀밥, 명엽채볶음<br>**샐러드바**: 오그락지, 배추김치, 우동국<br>**마이보글**: 라면 Ramen (2,500원), 해장라면 Bean Sprout& Dried Pollack Ramen (3,000원), 자파게티 Noodles with Black Soybean Sauce (3,000원), 불닭볶음면&치즈 Hot Chicken Flavor Ramen (3,700원), 폭탄주먹밥(햄) Rice Ball (Ham) (2,500원), 폭탄주먹밥(참치) Rice Ball (Tuna) (2,500원), 모둠튀김 Deep fried Food Set (Vegetables / Glass Noodles in Seaweed / Deep fried Sweet potato / Fried Dumplings) (3,500원), 즉석철판떡볶이 Stir-fried Rice Cake (4,000원), 닭강정 Sweet and Sour Chicken (5,000원), 공기밥 Rice (1,000원), 치즈사리 Add ( Cheese) (500원), 떡사리 Add ( Rice cake) (500원), 날계란사리 Add (Raw Egg ) (500원) |
+| 연세대학교 한경관(어울샘) | ☀️ **1층 중식**: 국, 김치제육불고기, 감자두부조림, 온모밀, 가지나물, 김/간장, 계란후라이, 김치, 숭늉 Soup, Kimchi and Spicy Stir-Fried Pork, Braised Potatoes and Tofu, Warm Buckwheat Noodles, Seasoned Eggplant, Dried Seaweed with Soy Sauce, Fried Egg, Kimchi, Scorched Rice Soup (Sungnyung) (7,900원)<br>☀️ **2층 중식**: 국, 하이라이스덮밥, 대패삼겹두부조림, 제육고추장크림파스타, 제육불고기, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, High-Rice (Japanese-style Curry) Rice Bowl, Braised Thinly Sliced Pork Belly and Tofu, Spicy Pork Gochujang Cream Pasta, Spicy Stir-Fried Pork (Jeyuk Bulgogi), Salad and Wrap Vegetables, Fried Egg, Stir-Pressed Bean Sprouts, Kimchi, Seasoned Pickled Radish (Danmuji), Scorched Rice Soup (Sungnyung) (7,000원)<br>🌛 **2층 석식**: 국, 하이라이스덮밥, 닭다리살김치볶음, 해산물오일파스타, 제육불고기, 햄버섯야채솥밥, 샐러드/쌈야채, 계란후라이, 볶음숙주, 김치, 단무지무침, 숭늉 Soup, High-Rice (Japanese-style Curry) Rice Bowl, Stir-Fried Chicken Thigh and Kimchi, Seafood Oil Pasta, Spicy Stir-Fried Pork (Jeyuk Bulgogi), Ham, Mushroom and Vegetable Stone Pot Rice, Salad and Wrap Vegetables, Fried Egg, Stir-Fried Bean Sprouts, Kimchi, Seasoned Pickled Radish (Danmuji), Scorched Rice Soup (Sungnyung) (7,000원) |
+| 세브란스 종합관 | 🌄 **조식 · 한식**: 사골만둣국, 메추리알장조림, 들깨숙주나물무침, 맛김, 쌀밥, 배추김치, 숭늉<br>🌄 **조식 · 면요리**: 토핑라면, 후리가케주먹밥, 포기김치<br>☀️ **중식 · 한식**: 고기산적구이\*머스타드S, 배추닭곰탕, 알감자조림, 오이지무침, 완두콩밥, 깍두기/헛개차<br>☀️ **중식 · 양식**: 치즈돈가스, 유부장국, 모닝빵&딸기잼, 후리가케주먹밥, 오이피클, 깍두기/헛개차<br>☀️ **중식 · 일품**: 즉석)김치우동, 가라아게\*어니언S, 후리가케주먹밥, 단무지, 깍두기, 헛개차<br>☀️ **중식 · 면요리**: 참깨라면, 연두부\*양념장, 쌀밥/배추김치, 헛개차<br>🌛 **석식 · 한식**: 고추장두루치기, 콩나물국, 도토리묵\*양념장, 부추겉절이, 완두콩밥/배추김치/헛개차<br>🌛 **석식 · 일품**: 마늘칩김치볶음밥, 콩나물국, 칼집소세지구이\*케찹, 부추겉절이, 깍두기/헛개차<br>🌛 **석식 · 면요리**: 참깨라면, 연두부\*양념장, 쌀밥/배추김치, 헛개차 |
+| 세브란스 제중관 | 🌄 **조식 · 한식**: 깐풍동그랑땡, 숙주짬뽕국, 명엽채볶음, 짜사이채무침, 쌀밥, 숭늉, 포기김치<br>🌄 **조식 · 간편식**: 길거리햄치즈토스트, 콘푸로스트&우유, 알옥수수샐러드<br>☀️ **중식 · 한식**: (뚝)오징어순두부찌개, 새우까스\*브라운S, 건파래볶음, 콩나물무침, 잡곡밥<br>☀️ **중식 · 양식**: 가마솥)우삼겹갈비탕&당면, 콩나물무침, 갈비탕소스, 쌀밥, 깍두기<br>☀️ **중식 · 일품**: 너비아니생야채비빔밥, 알감자꼬치\*케찹, 팽이장국, 단무지<br>☀️ **중식 · 면요리**: 얼큰김치수제비, 미니햄야채볶음밥, 왕만두찜, 고구마맛탕<br>☀️ **중식 · 자율코너**: 포기김치/키위주스<br>🌛 **석식 · 한식**: 미역국, or라면, 카레풍닭갈비, 오이양파무침, 청포묵숙주나물, 잡곡밥, 깍두기/키위주스 |
 
 ## 요일별 보기
 

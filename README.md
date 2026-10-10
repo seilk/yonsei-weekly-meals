@@ -5,7 +5,7 @@
 <details>
 <summary>메타 정보 (Last updated / Sources)</summary>
 
-- Last updated (KST): **2026-10-09T14:14:08+09:00**
+- Last updated (KST): **2026-10-10T13:59:08+09:00**
 - Sources:
   - Yonsei weekly menu: https://www.yonsei.ac.kr/_custom/yonsei/m/menu.jsp
   - Aramark mobile: http://m.yonsei.aramark.co.kr/mobile/yonsei/index.jsp
@@ -59,14 +59,14 @@
 
 ## 오늘 메뉴
 
-**오늘:** 금(10/09)
+**오늘:** 토(10/10)
 
 | 식당 | 메뉴 |
 |---|---|
-| 연세대학교 맛나샘 | 🌄 **아침 (조식)**: 한글날 Korean Alphabet Day |
+| 연세대학교 맛나샘 | **동방식객 /모던키친**: 나주곰탕 Naju-style Beef Soup (6,000원), 돌솥산채비빔밥 Wild Vegetable Bibimbap in a Hot Stone Pot (6,000원)<br>**공통메뉴**: 쌀밥, 다시마튀각<br>**샐러드바**: 간장마늘쫑지, 배추김치, 우동국<br>**마이보글**: 라면 Ramen (2,500원), 자파게티 Noodles with Black Soybean Sauce (3,000원), 불닭볶음면&치즈 Hot Chicken Flavor Ramen (3,700원), 공기밥 Rice (1,000원), 치즈사리 Add ( Cheese) (500원), 떡사리 Add ( Rice cake) (500원), 날계란사리 Add (Raw Egg ) (500원) |
 | 연세대학교 한경관(어울샘) | - |
-| 세브란스 종합관 | - |
-| 세브란스 제중관 | - |
+| 세브란스 종합관 | 🌄 **조식 · 한식**: 열무된장국, 간장불고기, 명엽채조림, 무생채, 쌀밥, 배추김치, 숭늉<br>☀️ **중식 · 한식**: 냉이된장찌개, 오징어초무침, 계란후라이, 고들빼기지, 쌀밥/깍두기, 맛김/숭늉 |
+| 세브란스 제중관 | 🌄 **조식 · 한식**: 고추장제육볶음, 미역장국, 우엉떡조림, 도토리묵\*양념간장, 쌀밥, 깍두기<br>☀️ **중식 · 한식**: 돈육콩나물밥\*양념간장, 감자계란국, 너비아니\*머스타드S, 깻잎무침, 도시락김, 포기김치 |
 
 ## 요일별 보기
 
